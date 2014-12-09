@@ -1,10 +1,16 @@
 (function () {
   'use strict';
 
+  var PLAYER_STATE = {
+    'IDLE': 'IDLE'
+  };
+
   var KaraokePlayer = function (canvasId, playerId) {
     this.canvas = undefined;
     this.player = undefined;
     this.drawer = undefined;
+    this.queue = [];
+    this.history = [];
 
     this.initial(canvasId, playerId);
   };
@@ -16,6 +22,23 @@
   };
 
   KaraokePlayer.prototype.initializeAudioEvents = function() {
+
+  };
+
+  KaraokePlayer.prototype.playMedia = function() {
+    if (this.queue.length === 0) {
+      console.error('No media can play');
+      return;
+    }
+    
+
+  };
+
+  KaraokePlayer.prototype.onPlayListener = function() {
+    
+  };
+
+  KaraokePlayer.prototype.onPauseListener = function() {
 
   };
 
