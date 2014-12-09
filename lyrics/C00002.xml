@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<karaoke id="C00002" d="251.01" genre="Country" copyright="1998" verified="yes">
+	<!-- File Copyright 2008 Chartbuster Karaoke.  All rights reserved. -->
+	<define>
+		<color id="wipe.1" val="240,240,240"/>
+		<color id="pt.1" val="240,160,0"/>
+		<color id="text.1" val="240,240,240"/>
+		<color id="text.2" val="224,0,0"/>
+	</define>
+	<pg id="title_page" t="0,24.45">
+		<box id="title" c="text.2">
+			All The Fun
+		</box>
+		<box id="style">
+			In The Style Of
+			Paul Overstreet
+		</box>
+		<box id="info" c="pt.1">
+			Key Of (A)      Time: 4:02
+			16 Bar Intro
+		</box>
+	</pg>
+	<pg id="lyrics.1" t="24.45,12.88">
+		<count c="pt.1" t="30.29,1.19" n="4"/>
+		<ln>
+			<lyr s="WELL " t="31.81,.19"/>
+			<lyr s="THE " t="32,.24"/>
+			<lyr s="GUYS " t="32.24,.37"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="32.61,.16"/>
+			<lyr s="I " t="32.77,.22"/>
+			<lyr s="WORK " t="32.99,.4"/>
+			<lyr s="WITH " t="33.39,.18"/>
+		</ln>
+		<ln>
+			<lyr s="THEY " t="33.57,.2"/>
+			<lyr s="WORK " t="33.77,.39"/>
+			<lyr s="REAL " t="34.16,.41"/>
+			<lyr s="HARD " t="34.57,.4"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="34.97,.2"/>
+			<lyr s="THEY " t="35.17,.2"/>
+			<lyr s="LIKE " t="35.37,.36"/>
+		</ln>
+		<ln>
+			<lyr s="TO " t="36.01,.16"/>
+			<lyr s="HAVE " t="36.17,.23"/>
+			<lyr s="A " t="36.4,.19"/>
+			<lyr s="GOOD " t="36.59,.34"/>
+			<lyr s="TIME " t="36.93,.3"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.2" t="37.33,6.22">
+		<ln>
+			<lyr s="AT " t="38.12,.19"/>
+			<lyr s="THE " t="38.31,.17"/>
+			<lyr s="END " t="38.48,.44"/>
+			<lyr s="OF " t="38.92,.17"/>
+			<lyr s="THE " t="39.09,.23"/>
+			<lyr s="DAY " t="39.32,.44"/>
+		</ln>
+		<ln>
+			<lyr s="IT'S " t="39.76,.17"/>
+			<lyr s="THEIR " t="39.93,.16"/>
+			<lyr s="TIME " t="40.09,.4"/>
+			<lyr s="TO " t="40.49,.2"/>
+			<lyr s="PLAY " t="40.69,.18"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="41.32,.15"/>
+			<lyr s="THEY " t="41.47,.21"/>
+			<lyr s="LIKE " t="41.68,.25"/>
+		</ln>
+		<ln>
+			<lyr s="TO " t="42.23,.2"/>
+			<lyr s="GO " t="42.43,.21"/>
+			<lyr s="AND " t="42.64,.2"/>
+			<lyr s="UNWIND " t="42.84,.61"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.3" t="43.55,6.18">
+		<ln>
+			<lyr s="WELL " t="44.45,.18"/>
+			<lyr s="THEY " t="44.63,.18"/>
+		</ln>
+		<ln>
+			<lyr s="MAKE " t="44.81,.19"/>
+			<lyr s="A " t="45,.2"/>
+			<lyr s="LOT " t="45.2,.2"/>
+			<lyr s="OF " t="45.4,.19"/>
+			<lyr s="JOKES " t="45.59,.38"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="45.97,.18"/>
+			<lyr s="THEY " t="46.15,.18"/>
+			<lyr s="LAUGH " t="46.33,.43"/>
+			<lyr s="AND " t="46.76,.17"/>
+		</ln>
+		<ln>
+			<lyr s="THEY " t="46.93,.18"/>
+			<lyr s="POKE " t="47.11,.45"/>
+			<lyr s="FUN " t="47.56,.39"/>
+			<lyr s="AT " t="47.95,.18"/>
+			<lyr s="ME " t="48.13,.18"/>
+		</ln>
+		<ln>
+			<lyr s="'CAUSE " t="48.31,.18"/>
+			<lyr s="I " t="48.49,.19"/>
+			<lyr s="DON'T " t="48.68,.41"/>
+		</ln>
+		<ln>
+			<lyr s="STAY " t="49.09,.39"/>
+			<lyr s="LONG " t="49.48,.15"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.4" t="49.73,6.48">
+		<ln>
+			<lyr s="AND " t="50.64,.21"/>
+			<lyr s="THEY " t="50.85,.2"/>
+			<lyr s="CAN'T " t="51.05,.4"/>
+		</ln>
+		<ln>
+			<lyr s="UNDERSTAND " t="51.45,.82"/>
+		</ln>
+		<ln>
+			<lyr s="WHY " t="52.27,.17"/>
+			<lyr s="A " t="52.44,.2"/>
+			<lyr s="MARRIED " t="52.64,.61"/>
+			<lyr s="MAN " t="53.25,.43"/>
+		</ln>
+		<ln>
+			<lyr s="IS " t="53.68,.13"/>
+			<lyr s="IN " t="53.81,.23"/>
+			<lyr s="A " t="54.04,.19"/>
+			<lyr s="HURRY " t="54.23,.57"/>
+		</ln>
+		<ln>
+			<lyr s="TO " t="54.8,.16"/>
+			<lyr s="EVER " t="54.96,.43"/>
+			<lyr s="GO " t="55.39,.38"/>
+			<lyr s="HOME " t="55.77,.34"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.5" t="56.21,7.44">
+		<ln>
+			<lyr s="I " t="57.81,.19"/>
+			<lyr s="JUST " t="58,.17"/>
+			<lyr s="TELL " t="58.17,.19"/>
+			<lyr s="THEM " t="58.36,.21"/>
+			<lyr s="THAT " t="58.57,.36"/>
+		</ln>
+		<ln>
+			<lyr s="ALL " t="58.93,.42"/>
+			<lyr s="THE " t="59.35,.37"/>
+			<lyr s="FUN " t="59.72,.36"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="60.08,.19"/>
+			<lyr s="I'M " t="60.27,.17"/>
+			<lyr s="EVER " t="60.44,.44"/>
+		</ln>
+		<ln>
+			<lyr s="GONNA " t="60.88,.35"/>
+			<lyr s="NEED " t="61.23,.22"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="61.45,.18"/>
+			<lyr s="GOT " t="61.63,.36"/>
+			<lyr s="WAITIN' " t="61.99,.45"/>
+			<lyr s="AT " t="62.44,.19"/>
+			<lyr s="HOME " t="62.63,.56"/>
+		</ln>
+		<ln>
+			<lyr s="FOR " t="63.19,.24"/>
+			<lyr s="ME " t="63.43,.12"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.6" t="63.65,6.66">
+		<ln>
+			<lyr s="YEAH " t="64.8,.21"/>
+			<lyr s="SHE " t="65.01,.2"/>
+			<lyr s="LIKES " t="65.21,.38"/>
+		</ln>
+		<ln>
+			<lyr s="TO " t="65.59,.24"/>
+			<lyr s="DANCE " t="65.83,.4"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="66.23,.17"/>
+			<lyr s="SHE " t="66.4,.19"/>
+			<lyr s="LOVES " t="66.59,.54"/>
+		</ln>
+		<ln>
+			<lyr s="ROMANCE " t="67.13,.83"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="67.96,.17"/>
+			<lyr s="SHE " t="68.13,.2"/>
+			<lyr s="THROWS " t="68.33,.23"/>
+			<lyr s="A " t="68.56,.16"/>
+		</ln>
+		<ln>
+			<lyr s="GREAT " t="68.72,.4"/>
+			<lyr s="PARTY " t="69.12,1.09"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.7" t="70.31,7.34">
+		<ln>
+			<lyr s="NO " t="72.45,.43"/>
+			<lyr s="THERE'S " t="72.88,.16"/>
+			<lyr s="NEVER " t="73.04,.4"/>
+			<lyr s="ANY " t="73.44,.37"/>
+		</ln>
+		<ln>
+			<lyr s="DULL " t="73.81,.4"/>
+			<lyr s="MINUTES " t="74.21,.38"/>
+		</ln>
+		<ln>
+			<lyr s="AROUND " t="74.59,.62"/>
+			<lyr s="HERE " t="75.21,.38"/>
+		</ln>
+		<ln>
+			<lyr s="SOMETHING " t="75.81,.35"/>
+			<lyr s="ALWAYS " t="76.16,.65"/>
+		</ln>
+		<ln>
+			<lyr s="A-" t="76.81,.15"/>
+			<lyr s="GOIN' " t="76.96,.37"/>
+			<lyr s="ON " t="77.33,.22"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.8" t="77.65,6.8">
+		<ln>
+			<lyr s="ALL " t="79.35,.37"/>
+			<lyr s="THE " t="79.72,.25"/>
+			<lyr s="FUN " t="79.97,.47"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="80.44,.16"/>
+			<lyr s="A " t="80.6,.17"/>
+			<lyr s="MAN " t="80.77,.48"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="81.25,.27"/>
+			<lyr s="WANT " t="81.52,.33"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="81.85,.19"/>
+			<lyr s="GOT " t="82.04,.43"/>
+			<lyr s="WAITIN' " t="82.47,.38"/>
+			<lyr s="FOR " t="82.85,.4"/>
+			<lyr s="ME " t="83.25,.18"/>
+		</ln>
+		<ln>
+			<lyr s="AT " t="83.43,.36"/>
+			<lyr s="HOME " t="83.79,.56"/>
+		</ln>
+	</pg>
+	<pg id="break.1" t="84.45,2.78">
+		<ln>
+			<lyr s="4 " t="85.57,.4"/>
+			<lyr s="BAR " t="85.97,.39"/>
+		</ln>
+		<ln>
+			<lyr s="BREAK " t="86.36,.77"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.9" t="87.23,7.9">
+		<count c="pt.1" t="88.73,1.15" n="4"/>
+		<ln>
+			<lyr s="I " t="90.12,.19"/>
+			<lyr s="USED " t="90.31,.17"/>
+			<lyr s="TO " t="90.48,.2"/>
+			<lyr s="BE " t="90.68,.19"/>
+			<lyr s="A " t="90.87,.16"/>
+			<lyr s="FOOL " t="91.03,.44"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="91.47,.16"/>
+			<lyr s="A " t="91.63,.18"/>
+			<lyr s="SUCKER " t="91.81,.43"/>
+		</ln>
+		<ln>
+			<lyr s="FOR " t="92.24,.2"/>
+			<lyr s="A " t="92.44,.2"/>
+			<lyr s="HIGH " t="92.64,.36"/>
+			<lyr s="TIME " t="93,.4"/>
+		</ln>
+		<ln>
+			<lyr s="ANY " t="93.4,.39"/>
+			<lyr s="TIME " t="93.79,.42"/>
+			<lyr s="NIGHT " t="94.21,.4"/>
+			<lyr s="OR " t="94.61,.19"/>
+			<lyr s="DAY " t="94.8,.23"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.10" t="95.13,6.44">
+		<ln>
+			<lyr s="I " t="96.04,.15"/>
+			<lyr s="HAD " t="96.19,.17"/>
+			<lyr s="A " t="96.36,.23"/>
+			<lyr s="'ROUND " t="96.59,.18"/>
+		</ln>
+		<ln>
+			<lyr s="THE " t="96.77,.18"/>
+			<lyr s="CLOCK " t="96.95,.4"/>
+			<lyr s="SMILE " t="97.35,.44"/>
+		</ln>
+		<ln>
+			<lyr s="JUST " t="97.79,.17"/>
+			<lyr s="CALL " t="97.96,.41"/>
+			<lyr s="ME " t="98.37,.16"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="98.53,.2"/>
+			<lyr s="I'D " t="98.73,.43"/>
+			<lyr s="BE " t="99.16,.55"/>
+		</ln>
+		<ln>
+			<lyr s="READILY " t="99.71,.62"/>
+			<lyr s="ON " t="100.33,.38"/>
+			<lyr s="MY " t="100.71,.44"/>
+			<lyr s="WAY " t="101.15,.32"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.11" t="101.57,6.36">
+		<ln>
+			<lyr s="BUT " t="102.47,.17"/>
+			<lyr s="TO " t="102.64,.19"/>
+			<lyr s="TELL " t="102.83,.2"/>
+			<lyr s="YOU " t="103.03,.45"/>
+		</ln>
+		<ln>
+			<lyr s="THE " t="103.48,.13"/>
+			<lyr s="TRUTH " t="103.61,.4"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="104.01,.16"/>
+			<lyr s="WAS " t="104.17,.19"/>
+			<lyr s="LONESOME " t="104.36,.45"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="104.81,.2"/>
+			<lyr s="BLUE " t="105.01,.54"/>
+		</ln>
+		<ln>
+			<lyr s="PRAYIN' " t="105.55,.46"/>
+			<lyr s="FOR " t="106.01,.16"/>
+			<lyr s="A " t="106.17,.18"/>
+			<lyr s="LITTLE " t="106.35,.42"/>
+		</ln>
+		<ln>
+			<lyr s="LIGHT " t="106.77,.22"/>
+			<lyr s="IN " t="106.99,.17"/>
+			<lyr s="MY " t="107.16,.4"/>
+			<lyr s="LIFE " t="107.56,.27"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.12" t="107.93,6.17">
+		<ln>
+			<lyr s="THEN " t="108.75,.2"/>
+			<lyr s="A " t="108.95,.16"/>
+			<lyr s="MIRACLE " t="109.11,.6"/>
+			<lyr s="CAME " t="109.71,.42"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="110.13,.35"/>
+			<lyr s="EVERYTHING " t="110.48,.73"/>
+		</ln>
+		<ln>
+			<lyr s="CHANGED " t="111.21,.62"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="111.83,.2"/>
+			<lyr s="I " t="112.03,.22"/>
+			<lyr s="MADE " t="112.25,.2"/>
+			<lyr s="THAT " t="112.45,.18"/>
+		</ln>
+		<ln>
+			<lyr s="LITTLE " t="112.63,.41"/>
+			<lyr s="WOMAN " t="113.04,.4"/>
+			<lyr s="MY " t="113.44,.39"/>
+			<lyr s="WIFE " t="113.83,.17"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.13" t="114.1,7.6">
+		<ln>
+			<lyr s="LET " t="115.84,.2"/>
+			<lyr s="ME " t="116.04,.19"/>
+			<lyr s="TELL " t="116.23,.22"/>
+			<lyr s="YOU " t="116.45,.19"/>
+			<lyr s="THAT " t="116.64,.32"/>
+		</ln>
+		<ln>
+			<lyr s="ALL " t="116.96,.44"/>
+			<lyr s="THE " t="117.4,.37"/>
+			<lyr s="FUN " t="117.77,.4"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="118.17,.16"/>
+			<lyr s="I'M " t="118.33,.2"/>
+			<lyr s="EVER " t="118.53,.36"/>
+		</ln>
+		<ln>
+			<lyr s="GONNA " t="118.89,.42"/>
+			<lyr s="NEED " t="119.31,.21"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="119.52,.17"/>
+			<lyr s="GOT " t="119.69,.38"/>
+			<lyr s="WAITIN' " t="120.07,.45"/>
+			<lyr s="AT " t="120.52,.17"/>
+			<lyr s="HOME " t="120.69,.54"/>
+		</ln>
+		<ln>
+			<lyr s="FOR " t="121.23,.26"/>
+			<lyr s="ME " t="121.49,.11"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.14" t="121.7,6.91">
+		<ln>
+			<lyr s="YEAH " t="122.87,.22"/>
+			<lyr s="SHE " t="123.09,.19"/>
+			<lyr s="LIKES " t="123.28,.37"/>
+		</ln>
+		<ln>
+			<lyr s="TO " t="123.65,.2"/>
+			<lyr s="DANCE " t="123.85,.42"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="124.27,.14"/>
+			<lyr s="SHE " t="124.41,.22"/>
+			<lyr s="LOVES " t="124.63,.52"/>
+		</ln>
+		<ln>
+			<lyr s="ROMANCE " t="125.15,.86"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="126.01,.16"/>
+			<lyr s="SHE " t="126.17,.2"/>
+			<lyr s="THROWS " t="126.37,.2"/>
+			<lyr s="A " t="126.57,.16"/>
+		</ln>
+		<ln>
+			<lyr s="GREAT " t="126.73,.4"/>
+			<lyr s="PARTY " t="127.13,1.38"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.15" t="128.61,7.04">
+		<ln>
+			<lyr s="NO " t="130.64,.28"/>
+			<lyr s="THERE'S " t="130.92,.15"/>
+			<lyr s="NEVER " t="131.07,.41"/>
+			<lyr s="ANY " t="131.48,.39"/>
+		</ln>
+		<ln>
+			<lyr s="DULL " t="131.87,.41"/>
+			<lyr s="MINUTES " t="132.28,.37"/>
+		</ln>
+		<ln>
+			<lyr s="AROUND " t="132.65,.63"/>
+			<lyr s="HERE " t="133.28,.52"/>
+		</ln>
+		<ln>
+			<lyr s="SOMETHING " t="133.8,.43"/>
+			<lyr s="ALWAYS " t="134.23,.61"/>
+		</ln>
+		<ln>
+			<lyr s="A-" t="134.84,.16"/>
+			<lyr s="GOIN' " t="135,.39"/>
+			<lyr s="ON " t="135.39,.16"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.16" t="135.65,6.78">
+		<ln>
+			<lyr s="ALL " t="137.37,.39"/>
+			<lyr s="THE " t="137.76,.2"/>
+			<lyr s="FUN " t="137.96,.43"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="138.39,.16"/>
+			<lyr s="A " t="138.55,.2"/>
+			<lyr s="MAN " t="138.75,.57"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="139.32,.21"/>
+			<lyr s="WANT " t="139.53,.38"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="139.91,.16"/>
+			<lyr s="GOT " t="140.07,.38"/>
+			<lyr s="WAITIN' " t="140.45,.43"/>
+			<lyr s="FOR " t="140.88,.4"/>
+			<lyr s="ME " t="141.28,.21"/>
+		</ln>
+		<ln>
+			<lyr s="AT " t="141.49,.4"/>
+			<lyr s="HOME " t="141.89,.44"/>
+		</ln>
+	</pg>
+	<pg id="break.2" t="142.43,2.88">
+		<ln>
+			<lyr s="4 " t="143.33,.31"/>
+			<lyr s="BAR " t="143.64,.39"/>
+		</ln>
+		<ln>
+			<lyr s="BREAK " t="144.03,1.18"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.17" t="145.31,7.78">
+		<count c="pt.1" t="146.41,1.12" n="4"/>
+		<ln>
+			<lyr s="WE " t="147.76,.17"/>
+			<lyr s="GOT " t="147.93,.38"/>
+		</ln>
+		<ln>
+			<lyr s="TWO " t="148.31,.4"/>
+			<lyr s="LITTLE " t="148.71,.37"/>
+			<lyr s="KIDS " t="149.08,.6"/>
+		</ln>
+		<ln>
+			<lyr s="CALLIN' " t="149.68,.53"/>
+			<lyr s="ME " t="150.21,.46"/>
+			<lyr s="DADDY " t="150.67,.77"/>
+		</ln>
+		<ln>
+			<lyr s="RUNNIN' " t="151.44,.4"/>
+			<lyr s="ALL " t="151.84,.39"/>
+			<lyr s="OVER " t="152.23,.42"/>
+		</ln>
+		<ln>
+			<lyr s="THE " t="152.65,.22"/>
+			<lyr s="HOUSE " t="152.87,.12"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.18" t="153.09,7.88">
+		<ln>
+			<lyr s="WHEN " t="154.25,.18"/>
+			<lyr s="THEY " t="154.43,.17"/>
+			<lyr s="FINALLY " t="154.6,.41"/>
+		</ln>
+		<ln>
+			<lyr s="GO " t="155.01,.2"/>
+			<lyr s="TO " t="155.21,.2"/>
+			<lyr s="SLEEP " t="155.41,.4"/>
+		</ln>
+		<ln>
+			<lyr s="THEIR " t="155.81,.22"/>
+			<lyr s="MAMA " t="156.03,.53"/>
+			<lyr s="AND " t="156.56,.45"/>
+			<lyr s="ME " t="157.01,.27"/>
+		</ln>
+		<ln>
+			<lyr s="WE " t="157.61,.15"/>
+			<lyr s="CUDDLE " t="157.76,.4"/>
+			<lyr s="AND " t="158.16,.19"/>
+		</ln>
+		<ln>
+			<lyr s="WE " t="158.35,.22"/>
+			<lyr s="SNUGGLE " t="158.57,.4"/>
+			<lyr s="AND " t="158.97,.23"/>
+			<lyr s="WE " t="159.2,.17"/>
+		</ln>
+		<ln>
+			<lyr s="PARTY " t="159.37,.36"/>
+			<lyr s="ON " t="159.73,.22"/>
+			<lyr s="THE " t="159.95,.18"/>
+			<lyr s="COUCH " t="160.13,.74"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.19" t="160.97,7.78">
+		<ln>
+			<lyr s="YEAH " t="163.48,.16"/>
+			<lyr s="I " t="163.64,.17"/>
+			<lyr s="GOT " t="163.81,.36"/>
+			<lyr s="ALL " t="164.17,.39"/>
+			<lyr s="THE " t="164.56,.17"/>
+			<lyr s="FUN " t="164.73,.4"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="165.13,.16"/>
+			<lyr s="A " t="165.29,.18"/>
+			<lyr s="MAN " t="165.47,.54"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="166.01,.22"/>
+			<lyr s="WANT " t="166.23,.8"/>
+		</ln>
+		<ln>
+			<lyr s="WAITIN' " t="167.03,.41"/>
+			<lyr s="AT " t="167.44,.19"/>
+			<lyr s="HOME " t="167.63,.72"/>
+		</ln>
+		<ln>
+			<lyr s="FOR " t="168.35,.22"/>
+			<lyr s="ME " t="168.57,.08"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.20" t="168.75,6.87">
+		<ln>
+			<lyr s="YEAH " t="169.95,.2"/>
+			<lyr s="SHE " t="170.15,.18"/>
+			<lyr s="LIKES " t="170.33,.42"/>
+		</ln>
+		<ln>
+			<lyr s="TO " t="170.75,.18"/>
+			<lyr s="DANCE " t="170.93,.42"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="171.35,.17"/>
+			<lyr s="SHE " t="171.52,.19"/>
+			<lyr s="LOVES " t="171.71,.56"/>
+		</ln>
+		<ln>
+			<lyr s="ROMANCE " t="172.27,.78"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="173.05,.2"/>
+			<lyr s="SHE " t="173.25,.22"/>
+			<lyr s="THROWS " t="173.47,.17"/>
+			<lyr s="A " t="173.64,.16"/>
+		</ln>
+		<ln>
+			<lyr s="GREAT " t="173.8,.43"/>
+			<lyr s="PARTY " t="174.23,1.29"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.21" t="175.62,7.08">
+		<ln>
+			<lyr s="NO " t="177.73,.27"/>
+			<lyr s="THERE'S " t="178,.16"/>
+			<lyr s="NEVER " t="178.16,.4"/>
+			<lyr s="ANY " t="178.56,.36"/>
+		</ln>
+		<ln>
+			<lyr s="DULL " t="178.92,.41"/>
+			<lyr s="MINUTES " t="179.33,.42"/>
+		</ln>
+		<ln>
+			<lyr s="AROUND " t="179.75,.6"/>
+			<lyr s="HERE " t="180.35,.5"/>
+		</ln>
+		<ln>
+			<lyr s="SOMETHING " t="180.85,.43"/>
+			<lyr s="ALWAYS " t="181.28,.6"/>
+		</ln>
+		<ln>
+			<lyr s="A-" t="181.88,.16"/>
+			<lyr s="GOIN' " t="182.04,.39"/>
+			<lyr s="ON " t="182.43,.17"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.22" t="182.7,6.64">
+		<ln>
+			<lyr s="ALL " t="184.43,.41"/>
+			<lyr s="THE " t="184.84,.23"/>
+			<lyr s="FUN " t="185.07,.36"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="185.43,.17"/>
+			<lyr s="A " t="185.6,.2"/>
+			<lyr s="MAN " t="185.8,.56"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="186.36,.23"/>
+			<lyr s="WANT " t="186.59,.42"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="187.01,.16"/>
+			<lyr s="GOT " t="187.17,.38"/>
+			<lyr s="WAITIN' " t="187.55,.42"/>
+			<lyr s="FOR " t="187.97,.42"/>
+			<lyr s="ME " t="188.39,.2"/>
+		</ln>
+		<ln>
+			<lyr s="AT " t="188.59,.38"/>
+			<lyr s="HOME " t="188.97,.27"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.23" t="189.34,11.27">
+		<ln>
+			<lyr s="I " t="191.75,.13"/>
+			<lyr s="SAID " t="191.88,.23"/>
+			<lyr s="NOW " t="192.11,.13"/>
+			<lyr s="ALL " t="192.24,.44"/>
+			<lyr s="THE " t="192.68,.2"/>
+			<lyr s="FUN " t="192.88,.4"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="193.28,.15"/>
+			<lyr s="A " t="193.43,.22"/>
+			<lyr s="MAN " t="193.65,.51"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="194.16,.27"/>
+			<lyr s="WANT " t="194.43,.36"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="194.79,.18"/>
+			<lyr s="GOT " t="194.97,.35"/>
+			<lyr s="WAITIN' " t="195.32,.47"/>
+			<lyr s="FOR " t="195.79,.42"/>
+			<lyr s="ME " t="196.21,.23"/>
+		</ln>
+		<ln>
+			<lyr s="AT " t="196.44,.36"/>
+			<lyr s="HOME " t="196.8,1.55"/>
+		</ln>
+		<ln>
+			<lyr s="RIGHT " t="199.57,.19"/>
+			<lyr s="AT " t="199.76,.24"/>
+			<lyr s="HOME " t="200,.51"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.24" t="200.61,11.93">
+		<ln>
+			<lyr s="I " t="202.73,.14"/>
+			<lyr s="GOT " t="202.87,.44"/>
+			<lyr s="ALL " t="203.31,.41"/>
+			<lyr s="THE " t="203.72,.17"/>
+			<lyr s="FUN " t="203.89,.42"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="204.31,.17"/>
+			<lyr s="A " t="204.48,.16"/>
+			<lyr s="MAN " t="204.64,.57"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="205.21,.23"/>
+			<lyr s="WANT " t="205.44,.73"/>
+		</ln>
+		<ln>
+			<lyr s="ALL " t="209.55,.41"/>
+			<lyr s="THE " t="209.96,.21"/>
+			<lyr s="FUN " t="210.17,.4"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="210.57,.19"/>
+			<lyr s="A " t="210.76,.16"/>
+			<lyr s="MAN " t="210.92,.51"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="211.43,.29"/>
+			<lyr s="WANT " t="211.72,.72"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.25" t="212.54,6.57">
+		<ln>
+			<lyr s="ALL " t="215.84,.39"/>
+			<lyr s="THE " t="216.23,.2"/>
+			<lyr s="FUN " t="216.43,.38"/>
+		</ln>
+		<ln>
+			<lyr s="THAT " t="216.81,.22"/>
+			<lyr s="A " t="217.03,.16"/>
+			<lyr s="MAN " t="217.19,.58"/>
+		</ln>
+		<ln>
+			<lyr s="COULD " t="217.77,.23"/>
+			<lyr s="WANT " t="218,1.01"/>
+		</ln>
+	</pg>
+	<pg id="credits_page" t="219.11,15.94">
+		Written By:
+		<ln c="text.2" h="+2">PAUL OVERSTREET</ln>
+		<ln c="text.2" h="+2">TAYLOR DUNN</ln>
+		<ln/>
+		<ln c="text.2">Publisher:</ln>
+		 SCARLET MOON MUSIC
+		<ln/>
+		<ln c="pt.1" h="-1">ALL RIGHTS RESERVED.</ln>
+		<ln c="pt.1" h="-1">USED BY PERMISSION.</ln>
+	</pg>
+	<pg id="closing_page" t="235.05,15.96"/>
+</karaoke>

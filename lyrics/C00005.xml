@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<karaoke id="C00005" d="215.36" genre="Country" copyright="1998" verified="yes">
+	<define>
+		<color id="pt.1" val="240,160,0"/>
+		<color id="wipe.1" val="240,240,240"/>
+		<color id="text.1" val="240,240,240"/>
+		<color id="text.2" val="224,0,0"/>
+	</define>
+	<pg id="title_page" t="0,17.13">
+		<box id="title" c="text.2">
+			Drinking Champagne
+		</box>
+		<box id="style">
+			In The Style Of
+			George Strait
+		</box>
+		<box id="info" c="pt.1">
+			Key Of (A)      Time: 3:30
+			8 Bar Intro
+		</box>
+	</pg>
+	<pg id="lyrics.1" t="17.13,15.24">
+		<count c="pt.1" t="23.4,1.73" n="4"/>
+		<ln>
+			<lyr s="I'M " t="25.65,.62"/>
+			<lyr s="DRINKING " t="26.27,.76"/>
+		</ln>
+		<ln>
+			<lyr s="CHAMPAGNE " t="27.03,1.04"/>
+		</ln>
+		<ln>
+			<lyr s="FEELIN' " t="28.49,.54"/>
+			<lyr s="NO " t="29.03,.41"/>
+			<lyr s="PAIN " t="29.44,.59"/>
+		</ln>
+		<ln>
+			<lyr s="'TIL " t="30.03,.45"/>
+			<lyr s="EARLY " t="30.48,.72"/>
+			<lyr s="MORNIN' " t="31.2,1.07"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.2" t="32.37,9.22">
+		<ln>
+			<lyr s="DINING " t="35.35,.8"/>
+			<lyr s="AND " t="36.15,.44"/>
+			<lyr s="DANCING " t="36.59,.82"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="37.41,.27"/>
+			<lyr s="EVERY " t="37.68,.79"/>
+		</ln>
+		<ln>
+			<lyr s="PRETTY " t="38.47,.28"/>
+			<lyr s="GIRL " t="38.75,.44"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="39.19,.46"/>
+			<lyr s="CAN " t="39.65,.34"/>
+			<lyr s="FIND " t="39.99,1.5"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.3" t="41.59,9.38">
+		<ln>
+			<lyr s="I'M " t="44.28,.29"/>
+			<lyr s="HAVING " t="44.57,.78"/>
+			<lyr s="A " t="45.35,.41"/>
+			<lyr s="FLING " t="45.76,.51"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="46.63,.13"/>
+			<lyr s="A " t="46.76,.19"/>
+			<lyr s="PRETTY " t="46.95,.62"/>
+		</ln>
+		<ln>
+			<lyr s="YOUNG " t="47.57,.4"/>
+			<lyr s="THING " t="47.97,.43"/>
+		</ln>
+		<ln>
+			<lyr s="'TIL " t="48.4,.47"/>
+			<lyr s="EARLY " t="48.87,.62"/>
+			<lyr s="MORNING " t="49.49,1.38"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.4" t="50.97,9.18">
+		<ln>
+			<lyr s="KNOWIN' " t="53.68,.81"/>
+			<lyr s="TOMORROW " t="54.49,1.19"/>
+		</ln>
+		<ln>
+			<lyr s="I'LL " t="55.68,.37"/>
+			<lyr s="WAKE " t="56.05,.34"/>
+			<lyr s="UP " t="56.39,.21"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="56.91,.33"/>
+			<lyr s="YOU " t="57.24,.35"/>
+		</ln>
+		<ln>
+			<lyr s="ON " t="57.59,.44"/>
+			<lyr s="MY " t="58.03,.52"/>
+			<lyr s="MIND " t="58.55,1.5"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.5" t="60.15,10.59">
+		<ln>
+			<lyr s="GUILTY " t="62.83,.3"/>
+			<lyr s="CONSCIENCE " t="63.13,.91"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="64.85,.51"/>
+			<lyr s="GUESS " t="65.36,.76"/>
+		</ln>
+		<ln>
+			<lyr s="THOUGH " t="67.21,.3"/>
+			<lyr s="I " t="67.51,1.44"/>
+		</ln>
+		<ln>
+			<lyr s="MUST " t="68.95,.48"/>
+			<lyr s="CONFESS " t="69.43,1.21"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.6" t="70.74,8.17">
+		<ln>
+			<lyr s="I " t="72.03,.84"/>
+			<lyr s="NEVER " t="72.87,.34"/>
+			<lyr s="LOVED " t="73.21,.82"/>
+		</ln>
+		<ln>
+			<lyr s="YOU " t="74.03,.36"/>
+			<lyr s="MUCH " t="74.39,.49"/>
+		</ln>
+		<ln>
+			<lyr s="WHEN " t="75.27,.32"/>
+			<lyr s="YOU " t="75.59,.73"/>
+		</ln>
+		<ln>
+			<lyr s="WERE " t="76.32,.6"/>
+			<lyr s="MINE " t="76.92,1.89"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.7" t="78.91,8.64">
+		<ln>
+			<lyr s="SO " t="80.52,.15"/>
+			<lyr s="I'LL " t="80.67,.26"/>
+			<lyr s="KEEP " t="80.93,.34"/>
+			<lyr s="DRINKING " t="81.27,.73"/>
+		</ln>
+		<ln>
+			<lyr s="CHAMPAGNE " t="82,1.05"/>
+		</ln>
+		<ln>
+			<lyr s="FEELIN' " t="83.47,.57"/>
+			<lyr s="NO " t="84.04,.33"/>
+			<lyr s="PAIN " t="84.37,.55"/>
+		</ln>
+		<ln>
+			<lyr s="'TIL " t="84.92,.57"/>
+			<lyr s="EARLY " t="85.49,.64"/>
+			<lyr s="MORNIN' " t="86.13,1.32"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.8" t="87.55,8.68">
+		<ln>
+			<lyr s="DINING " t="90.35,.81"/>
+			<lyr s="AND " t="91.16,.36"/>
+			<lyr s="DANCING " t="91.52,.84"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="92.36,.39"/>
+			<lyr s="EVERY " t="92.75,.48"/>
+		</ln>
+		<ln>
+			<lyr s="PRETTY " t="93.56,.31"/>
+			<lyr s="GIRL " t="93.87,.33"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="94.2,.4"/>
+			<lyr s="CAN " t="94.6,.39"/>
+			<lyr s="FIND " t="94.99,1.14"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.9" t="96.23,9.63">
+		<ln>
+			<lyr s="I'M " t="99.27,.33"/>
+			<lyr s="HAVING " t="99.6,.68"/>
+			<lyr s="A " t="100.28,.39"/>
+			<lyr s="FLING " t="100.67,.6"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="101.56,.17"/>
+			<lyr s="A " t="101.73,.18"/>
+			<lyr s="PRETTY " t="101.91,.41"/>
+		</ln>
+		<ln>
+			<lyr s="YOUNG " t="102.32,.36"/>
+			<lyr s="THING " t="102.68,.56"/>
+		</ln>
+		<ln>
+			<lyr s="'TIL " t="103.24,.55"/>
+			<lyr s="EARLY " t="103.79,.62"/>
+			<lyr s="MORNING " t="104.41,1.35"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.10" t="105.86,8.68">
+		<ln>
+			<lyr s="KNOWIN' " t="108.64,.84"/>
+			<lyr s="TOMORROW " t="109.48,1.16"/>
+		</ln>
+		<ln>
+			<lyr s="I'LL " t="110.64,.43"/>
+			<lyr s="WAKE " t="111.07,.29"/>
+			<lyr s="UP " t="111.36,.19"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="111.93,.31"/>
+			<lyr s="YOU " t="112.24,.32"/>
+		</ln>
+		<ln>
+			<lyr s="ON " t="112.56,.36"/>
+			<lyr s="MY " t="112.92,.43"/>
+			<lyr s="MIND " t="113.35,1.09"/>
+		</ln>
+	</pg>
+	<pg id="break.1" t="114.54,26.43">
+		<ln>
+			<lyr s="16 " t="115.68,.53"/>
+			<lyr s="BAR " t="116.21,4"/>
+		</ln>
+		<ln>
+			<lyr s="INSTRUMENTAL " t="120.21,13.75"/>
+		</ln>
+		<ln>
+			<lyr s="BREAK " t="133.96,6.91"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.11" t="140.97,16.14">
+		<count c="pt.1" t="147.15,1.72" n="4"/>
+		<ln>
+			<lyr s="GUILTY " t="149.55,.49"/>
+			<lyr s="CONSCIENCE " t="150.04,.92"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="151.95,.66"/>
+			<lyr s="GUESS " t="152.61,.75"/>
+		</ln>
+		<ln>
+			<lyr s="THOUGH " t="154.25,.38"/>
+			<lyr s="I " t="154.63,1.46"/>
+		</ln>
+		<ln>
+			<lyr s="MUST " t="156.09,.44"/>
+			<lyr s="CONFESS " t="156.53,.48"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.12" t="157.11,9.02">
+		<ln>
+			<lyr s="I " t="159.16,.83"/>
+			<lyr s="NEVER " t="159.99,.37"/>
+			<lyr s="LOVED " t="160.36,.81"/>
+		</ln>
+		<ln>
+			<lyr s="YOU " t="161.17,.34"/>
+			<lyr s="MUCH " t="161.51,.36"/>
+		</ln>
+		<ln>
+			<lyr s="WHEN " t="162.35,.3"/>
+			<lyr s="YOU " t="162.65,.76"/>
+		</ln>
+		<ln>
+			<lyr s="WERE " t="163.41,.67"/>
+			<lyr s="MINE " t="164.08,1.95"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.13" t="166.13,8.57">
+		<ln>
+			<lyr s="SO " t="167.59,.13"/>
+			<lyr s="I'LL " t="167.72,.39"/>
+			<lyr s="KEEP " t="168.11,.24"/>
+			<lyr s="DRINKING " t="168.35,.73"/>
+		</ln>
+		<ln>
+			<lyr s="CHAMPAGNE " t="169.08,1.08"/>
+		</ln>
+		<ln>
+			<lyr s="FEELIN' " t="170.56,.52"/>
+			<lyr s="NO " t="171.08,.44"/>
+			<lyr s="PAIN " t="171.52,.47"/>
+		</ln>
+		<ln>
+			<lyr s="'TIL " t="171.99,.5"/>
+			<lyr s="EARLY " t="172.49,.78"/>
+			<lyr s="MORNIN' " t="173.27,1.33"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.14" t="174.7,8.88">
+		<ln>
+			<lyr s="DINING " t="177.44,.79"/>
+			<lyr s="AND " t="178.23,.42"/>
+			<lyr s="DANCING " t="178.65,.84"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="179.49,.32"/>
+			<lyr s="EVERY " t="179.81,.6"/>
+		</ln>
+		<ln>
+			<lyr s="PRETTY " t="180.68,.29"/>
+			<lyr s="GIRL " t="180.97,.39"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="181.36,.37"/>
+			<lyr s="CAN " t="181.73,.39"/>
+			<lyr s="FIND " t="182.12,1.36"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.15" t="183.58,9.2">
+		<ln>
+			<lyr s="I'LL " t="186.03,.32"/>
+			<lyr s="KEEP " t="186.35,.29"/>
+		</ln>
+		<ln>
+			<lyr s="HAVING " t="186.64,.65"/>
+			<lyr s="A " t="187.29,.43"/>
+			<lyr s="FLING " t="187.72,.64"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="188.63,.14"/>
+			<lyr s="A " t="188.77,.16"/>
+			<lyr s="PRETTY " t="188.93,.43"/>
+		</ln>
+		<ln>
+			<lyr s="YOUNG " t="189.36,.44"/>
+			<lyr s="THING " t="189.8,.52"/>
+		</ln>
+		<ln>
+			<lyr s="'TIL " t="190.32,.53"/>
+			<lyr s="EARLY " t="190.85,.63"/>
+			<lyr s="MORNING " t="191.48,1.2"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.16" t="192.78,9.61">
+		<ln>
+			<lyr s="KNOWIN' " t="195.77,.82"/>
+			<lyr s="TOMORROW " t="196.59,1.14"/>
+		</ln>
+		<ln>
+			<lyr s="I'LL " t="197.73,.4"/>
+			<lyr s="WAKE " t="198.13,.34"/>
+			<lyr s="UP " t="198.47,.21"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="199,.27"/>
+			<lyr s="YOU " t="199.27,.34"/>
+		</ln>
+		<ln>
+			<lyr s="ON " t="199.61,.44"/>
+			<lyr s="MY " t="200.05,.4"/>
+			<lyr s="MIND " t="200.45,1.19"/>
+		</ln>
+	</pg>
+	<pg id="credits_page" t="202.39,8.13">
+		Written By:
+		<ln c="text.2" h="+2">BILL MACK</ln>
+		<ln/>
+		<ln c="text.2">Publisher:</ln>
+		 ACUFF-ROSE MUSIC, INC. (BMI)
+		<ln/>
+		<ln c="pt.1" h="-1">ALL RIGHTS RESERVED.</ln>
+		<ln c="pt.1" h="-1">USED BY PERMISSION.</ln>
+	</pg>
+	<pg id="closing_page" t="210.52,4.84"/>
+</karaoke>

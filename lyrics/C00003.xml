@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<karaoke id="C00003" d="191.07" genre="Country" copyright="1997" status="unverified">
+	<!-- File Copyright 2008 Chartbuster Karaoke.  All rights reserved. -->
+	<define>
+		<color id="wipe.1" val="240,240,240"/>
+		<color id="pt.1" val="240,160,0"/>
+		<color id="text.1" val="240,240,240"/>
+		<color id="text.2" val="224,0,0"/>
+	</define>
+	<pg id="title_page" t="0,11.16">
+		<box id="title" c="text.2">
+			Country Club
+		</box>
+		<box id="style">
+			In The Style Of
+			Travis Tritt
+		</box>
+		<box id="info" c="pt.1">
+			Key Of (E)      Time: 3:06
+			4 Bar Intro
+		</box>
+	</pg>
+	<pg id="lyrics.1" t="11.16,9.99">
+		<count c="pt.1" t="13.03,1.37" n="4"/>
+		<ln>
+			<lyr s="I " t="14.63,.16"/>
+			<lyr s="TOOK " t="14.79,.26"/>
+			<lyr s="A " t="15.05,.15"/>
+			<lyr s="DOUBLE " t="15.2,.84"/>
+			<lyr s="TAKE " t="16.04,.44"/>
+		</ln>
+		<ln>
+			<lyr s="OUT " t="16.48,.2"/>
+			<lyr s="ON " t="16.68,.29"/>
+			<lyr s="THE " t="16.97,.19"/>
+			<lyr s="INTERSTATE " t="17.16,1.09"/>
+		</ln>
+		<ln>
+			<lyr s="WHEN " t="18.56,.27"/>
+			<lyr s="I " t="18.83,.16"/>
+			<lyr s="SAW " t="18.99,.29"/>
+			<lyr s="HER " t="19.28,.16"/>
+		</ln>
+		<ln>
+			<lyr s="MAKIN' " t="19.44,.53"/>
+			<lyr s="EYES " t="19.97,.46"/>
+			<lyr s="AT " t="20.43,.26"/>
+			<lyr s="ME " t="20.69,.36"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.2" t="21.15,7.34">
+		<ln>
+			<lyr s="SO " t="22.29,.28"/>
+			<lyr s="I " t="22.57,.16"/>
+			<lyr s="FOLLOWED " t="22.73,.46"/>
+		</ln>
+		<ln>
+			<lyr s="HER " t="23.19,.3"/>
+			<lyr s="DOWN " t="23.49,.6"/>
+		</ln>
+		<ln>
+			<lyr s="TO " t="24.47,.18"/>
+			<lyr s="CLUBHOUSE " t="24.65,.74"/>
+			<lyr s="DRIVE " t="25.39,.61"/>
+		</ln>
+		<ln>
+			<lyr s="PAST " t="26,.27"/>
+			<lyr s="THE " t="26.27,.18"/>
+			<lyr s="POOL " t="26.45,.47"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="26.92,.27"/>
+			<lyr s="THE " t="27.19,.16"/>
+		</ln>
+		<ln>
+			<lyr s="EIGHTEENTH " t="27.35,.72"/>
+			<lyr s="GREEN " t="28.07,.32"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.3" t="28.49,7.53">
+		<ln>
+			<lyr s="AND " t="29.57,.18"/>
+			<lyr s="IN " t="29.75,.26"/>
+		</ln>
+		<ln>
+			<lyr s="THE " t="30.01,.14"/>
+			<lyr s="PARKING " t="30.15,.78"/>
+			<lyr s="LOT " t="30.93,.48"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="31.41,.19"/>
+			<lyr s="SAID " t="31.6,.27"/>
+			<lyr s="IT'S " t="31.87,.24"/>
+			<lyr s="MIGHTY " t="32.4,.41"/>
+			<lyr s="HOT " t="32.81,.31"/>
+		</ln>
+		<ln>
+			<lyr s="MAYBE " t="33.93,.24"/>
+			<lyr s="I " t="34.17,.4"/>
+			<lyr s="CAN " t="34.57,.16"/>
+			<lyr s="BUY " t="34.73,.64"/>
+		</ln>
+		<ln>
+			<lyr s="YOU " t="35.37,.26"/>
+			<lyr s="A " t="35.63,.13"/>
+			<lyr s="BEER " t="35.76,.16"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.4" t="36.02,7.39">
+		<ln>
+			<lyr s="SHE " t="37.04,.16"/>
+			<lyr s="SAID " t="37.2,.25"/>
+			<lyr s="I'M " t="37.45,.19"/>
+			<lyr s="GLAD " t="37.64,.47"/>
+		</ln>
+		<ln>
+			<lyr s="YOU " t="38.11,.28"/>
+			<lyr s="ASKED " t="38.39,.28"/>
+		</ln>
+		<ln>
+			<lyr s="BUT " t="39.09,.23"/>
+			<lyr s="I'LL " t="39.32,.21"/>
+			<lyr s="HAVE " t="39.53,.43"/>
+			<lyr s="TO " t="39.96,.27"/>
+			<lyr s="PASS " t="40.23,.42"/>
+		</ln>
+		<ln>
+			<lyr s="CAUSE " t="40.65,.18"/>
+			<lyr s="ONLY " t="40.83,.49"/>
+			<lyr s="MEMBERS " t="41.32,.47"/>
+		</ln>
+		<ln>
+			<lyr s="ARE " t="41.79,.32"/>
+			<lyr s="ALLOWED " t="42.11,.68"/>
+			<lyr s="IN " t="42.79,.41"/>
+			<lyr s="HERE " t="43.2,.11"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.5" t="43.41,8.29">
+		<ln>
+			<lyr s="AND " t="44.25,.16"/>
+			<lyr s="I " t="44.41,.24"/>
+			<lyr s="SAID " t="44.65,.39"/>
+		</ln>
+		<ln>
+			<lyr s="I'M " t="45.56,.31"/>
+			<lyr s="A " t="45.87,.17"/>
+			<lyr s="MEMBER " t="46.04,.51"/>
+			<lyr s="OF " t="46.55,.25"/>
+			<lyr s="A " t="46.8,.16"/>
+		</ln>
+		<ln>
+			<lyr s="COUNTRY " t="46.96,.76"/>
+			<lyr s="CLUB " t="47.72,.56"/>
+		</ln>
+		<ln>
+			<lyr s="COUNTRY " t="49.25,.51"/>
+			<lyr s="MUSIC " t="49.76,.43"/>
+		</ln>
+		<ln>
+			<lyr s="IS " t="50.19,.49"/>
+			<lyr s="WHAT " t="50.68,.23"/>
+			<lyr s="I " t="50.91,.49"/>
+			<lyr s="LOVE " t="51.4,.2"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.6" t="51.7,7.44">
+		<ln>
+			<lyr s="I " t="52.88,.17"/>
+			<lyr s="DRIVE " t="53.05,.32"/>
+			<lyr s="AN " t="53.37,.15"/>
+			<lyr s="OLD " t="53.52,.45"/>
+			<lyr s="FORD " t="53.97,.44"/>
+		</ln>
+		<ln>
+			<lyr s="PICKUP " t="54.41,.74"/>
+			<lyr s="TRUCK " t="55.15,.32"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="56.57,.16"/>
+			<lyr s="DO " t="56.73,.24"/>
+			<lyr s="MY " t="56.97,.14"/>
+			<lyr s="DRINKIN' " t="57.11,.56"/>
+		</ln>
+		<ln>
+			<lyr s="FROM " t="57.67,.28"/>
+			<lyr s="A " t="57.95,.14"/>
+			<lyr s="DIXIE " t="58.09,.8"/>
+			<lyr s="CUP " t="58.89,.15"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.7" t="59.14,7.48">
+		<ln>
+			<lyr s="HEY " t="60.33,.16"/>
+			<lyr s="I'M " t="60.49,.31"/>
+			<lyr s="A " t="60.8,.16"/>
+			<lyr s="BONA " t="60.96,.45"/>
+			<lyr s="FIDE " t="61.41,.48"/>
+		</ln>
+		<ln>
+			<lyr s="DANCIN' " t="61.89,.72"/>
+			<lyr s="FOOL " t="62.61,.7"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="64.08,.13"/>
+			<lyr s="SHOOT " t="64.21,.32"/>
+			<lyr s="A " t="64.53,.14"/>
+			<lyr s="MIGHTY " t="64.67,.45"/>
+			<lyr s="MEAN " t="65.12,.49"/>
+		</ln>
+		<ln>
+			<lyr s="GAME " t="65.61,.51"/>
+			<lyr s="OF " t="66.12,.23"/>
+			<lyr s="POOL " t="66.35,.17"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.8" t="66.62,7.63">
+		<ln>
+			<lyr s="AT " t="67.77,.16"/>
+			<lyr s="ANY " t="67.93,.44"/>
+			<lyr s="HONKY " t="68.37,.44"/>
+			<lyr s="TONK " t="68.81,.26"/>
+		</ln>
+		<ln>
+			<lyr s="OR " t="69.07,.16"/>
+			<lyr s="ROADSIDE " t="69.23,1.01"/>
+			<lyr s="PUB " t="70.24,.43"/>
+		</ln>
+		<ln>
+			<lyr s="I'M " t="71.65,.31"/>
+			<lyr s="A " t="71.96,.17"/>
+			<lyr s="MEMBER " t="72.13,.46"/>
+			<lyr s="OF " t="72.59,.28"/>
+			<lyr s="A " t="72.87,.14"/>
+		</ln>
+		<ln>
+			<lyr s="COUNTRY " t="73.01,.8"/>
+			<lyr s="CLUB " t="73.81,.34"/>
+		</ln>
+	</pg>
+	<pg id="break.1" t="74.25,5.94">
+		<ln>
+			<lyr s="4 " t="75.45,.47"/>
+			<lyr s="BAR " t="75.92,2.8"/>
+		</ln>
+		<ln>
+			<lyr s="BREAK " t="78.72,1.37"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.9" t="80.19,9.18">
+		<count c="pt.1" t="81.96,1.43" n="4"/>
+		<ln>
+			<lyr s="LORD " t="83.75,.33"/>
+			<lyr s="YOU " t="84.08,.17"/>
+			<lyr s="LOOK " t="84.25,.26"/>
+		</ln>
+		<ln>
+			<lyr s="SO " t="84.51,.22"/>
+			<lyr s="INVITIN' " t="84.73,.83"/>
+		</ln>
+		<ln>
+			<lyr s="THOUGHT " t="85.71,.2"/>
+			<lyr s="IT " t="85.91,.25"/>
+			<lyr s="MIGHT " t="86.16,.44"/>
+		</ln>
+		<ln>
+			<lyr s="BE " t="86.6,.28"/>
+			<lyr s="EXCITIN' " t="86.88,.61"/>
+		</ln>
+		<ln>
+			<lyr s="FOR " t="87.49,.27"/>
+			<lyr s="A " t="87.76,.2"/>
+			<lyr s="WOMAN " t="87.96,.48"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="88.44,.21"/>
+			<lyr s="A " t="88.65,.26"/>
+			<lyr s="LIMOUSINE " t="88.91,.36"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.10" t="89.37,8.13">
+		<ln>
+			<lyr s="TO " t="91.07,.17"/>
+			<lyr s="GO " t="91.24,.43"/>
+			<lyr s="BOUNCIN' " t="91.67,.42"/>
+			<lyr s="AROUND " t="92.09,.99"/>
+		</ln>
+		<ln>
+			<lyr s="IN " t="93.08,.27"/>
+			<lyr s="A " t="93.35,.21"/>
+			<lyr s="BEAT " t="93.56,.29"/>
+			<lyr s="UP " t="93.85,.44"/>
+			<lyr s="TRUCK " t="94.29,.24"/>
+		</ln>
+		<ln>
+			<lyr s="WITH " t="94.95,.26"/>
+			<lyr s="A " t="95.21,.2"/>
+			<lyr s="MAN " t="95.41,.5"/>
+			<lyr s="IN " t="95.91,.48"/>
+		</ln>
+		<ln>
+			<lyr s="WORE-" t="96.39,.22"/>
+			<lyr s="OUT " t="96.61,.47"/>
+			<lyr s="JEANS " t="97.08,.32"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.11" t="97.5,7.44">
+		<ln>
+			<lyr s="YEAH " t="98.55,.46"/>
+			<lyr s="IT'S " t="99.01,.14"/>
+			<lyr s="FIVE " t="99.15,.46"/>
+			<lyr s="O'CLOCK " t="99.61,.74"/>
+		</ln>
+		<ln>
+			<lyr s="BEFORE " t="100.35,.92"/>
+			<lyr s="FRIDAY " t="101.27,.45"/>
+			<lyr s="NIGHT " t="101.72,.28"/>
+		</ln>
+		<ln>
+			<lyr s="AND " t="102.73,.18"/>
+			<lyr s="HERE'S " t="102.91,.45"/>
+			<lyr s="WHERE " t="103.36,.27"/>
+		</ln>
+		<ln>
+			<lyr s="THE " t="103.63,.16"/>
+			<lyr s="FUN " t="103.79,.49"/>
+			<lyr s="BEGINS " t="104.28,.56"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.12" t="104.94,7.64">
+		<ln>
+			<lyr s="SO " t="105.91,.18"/>
+			<lyr s="DON'T " t="106.09,.32"/>
+			<lyr s="YOU " t="106.41,.15"/>
+			<lyr s="WORRY " t="106.56,.47"/>
+		</ln>
+		<ln>
+			<lyr s="'BOUT " t="107.03,.28"/>
+			<lyr s="YOUR " t="107.31,.17"/>
+			<lyr s="REPUTATION " t="107.48,2.08"/>
+		</ln>
+		<ln>
+			<lyr s="CAUSE " t="110.17,.14"/>
+			<lyr s="YOU " t="110.31,.34"/>
+			<lyr s="CAN " t="110.65,.14"/>
+			<lyr s="TELL " t="110.79,.46"/>
+		</ln>
+		<ln>
+			<lyr s="ALL " t="111.25,.5"/>
+			<lyr s="YOUR " t="111.75,.48"/>
+			<lyr s="FRIENDS " t="112.23,.25"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.13" t="112.58,8.19">
+		<ln>
+			<lyr s="THAT " t="114.4,.16"/>
+			<lyr s="I'M " t="114.56,.31"/>
+			<lyr s="A " t="114.87,.14"/>
+			<lyr s="MEMBER " t="115.01,.46"/>
+		</ln>
+		<ln>
+			<lyr s="OF " t="115.47,.28"/>
+			<lyr s="A " t="115.75,.16"/>
+			<lyr s="COUNTRY " t="115.91,.8"/>
+			<lyr s="CLUB " t="116.71,.54"/>
+		</ln>
+		<ln>
+			<lyr s="COUNTRY " t="118.23,.48"/>
+			<lyr s="MUSIC " t="118.71,.46"/>
+		</ln>
+		<ln>
+			<lyr s="IS " t="119.17,.48"/>
+			<lyr s="WHAT " t="119.65,.27"/>
+			<lyr s="I " t="119.92,.44"/>
+			<lyr s="LOVE " t="120.36,.31"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.14" t="120.77,7.46">
+		<ln>
+			<lyr s="I " t="121.83,.16"/>
+			<lyr s="DRIVE " t="121.99,.3"/>
+			<lyr s="AN " t="122.29,.12"/>
+			<lyr s="OLD " t="122.41,.51"/>
+			<lyr s="FORD " t="122.92,.45"/>
+		</ln>
+		<ln>
+			<lyr s="PICKUP " t="123.37,.71"/>
+			<lyr s="TRUCK " t="124.08,.39"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="125.55,.16"/>
+			<lyr s="DO " t="125.71,.25"/>
+			<lyr s="MY " t="125.96,.15"/>
+			<lyr s="DRINKIN' " t="126.11,.5"/>
+		</ln>
+		<ln>
+			<lyr s="FROM " t="126.61,.28"/>
+			<lyr s="A " t="126.89,.18"/>
+			<lyr s="DIXIE " t="127.07,.73"/>
+			<lyr s="CUP " t="127.8,.33"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.15" t="128.23,7.38">
+		<ln>
+			<lyr s="HEY " t="129.27,.16"/>
+			<lyr s="I'M " t="129.43,.29"/>
+			<lyr s="A " t="129.72,.16"/>
+			<lyr s="BONA " t="129.88,.49"/>
+			<lyr s="FIDE " t="130.37,.44"/>
+		</ln>
+		<ln>
+			<lyr s="DANCIN' " t="130.81,.79"/>
+			<lyr s="FOOL " t="131.6,.6"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="133.04,.13"/>
+			<lyr s="SHOOT " t="133.17,.3"/>
+			<lyr s="A " t="133.47,.17"/>
+			<lyr s="MIGHTY " t="133.64,.44"/>
+			<lyr s="MEAN " t="134.08,.47"/>
+		</ln>
+		<ln>
+			<lyr s="GAME " t="134.55,.52"/>
+			<lyr s="OF " t="135.07,.24"/>
+			<lyr s="POOL " t="135.31,.2"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.16" t="135.61,7.41">
+		<ln>
+			<lyr s="AT " t="136.76,.15"/>
+			<lyr s="ANY " t="136.91,.42"/>
+			<lyr s="HONKY " t="137.33,.48"/>
+			<lyr s="TONK " t="137.81,.24"/>
+		</ln>
+		<ln>
+			<lyr s="OR " t="138.05,.19"/>
+			<lyr s="ROADSIDE " t="138.24,.96"/>
+			<lyr s="PUB " t="139.2,.45"/>
+		</ln>
+		<ln>
+			<lyr s="YEAH " t="140.48,.13"/>
+			<lyr s="I'M " t="140.61,.3"/>
+			<lyr s="A " t="140.91,.16"/>
+			<lyr s="MEMBER " t="141.07,.48"/>
+		</ln>
+		<ln>
+			<lyr s="OF " t="141.55,.26"/>
+			<lyr s="A " t="141.81,.14"/>
+			<lyr s="COUNTRY " t="141.95,.81"/>
+			<lyr s="CLUB " t="142.76,.16"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.17" t="143.02,7.65">
+		<ln>
+			<lyr s="YEAH " t="144.17,.16"/>
+			<lyr s="I'M " t="144.33,.34"/>
+			<lyr s="A " t="144.67,.16"/>
+			<lyr s="MEMBER " t="144.83,.45"/>
+		</ln>
+		<ln>
+			<lyr s="OF " t="145.28,.25"/>
+			<lyr s="A " t="145.53,.16"/>
+			<lyr s="COUNTRY " t="145.69,.79"/>
+			<lyr s="CLUB " t="146.48,.67"/>
+		</ln>
+		<ln>
+			<lyr s="COUNTRY " t="148.08,.44"/>
+			<lyr s="MUSIC " t="148.52,.47"/>
+		</ln>
+		<ln>
+			<lyr s="IS " t="148.99,.45"/>
+			<lyr s="WHAT " t="149.44,.27"/>
+			<lyr s="I " t="149.71,.45"/>
+			<lyr s="LOVE  " t="150.16,.41"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.18" t="150.67,7.27">
+		<ln>
+			<lyr s="I " t="151.61,.16"/>
+			<lyr s="DRIVE " t="151.77,.31"/>
+			<lyr s="AN " t="152.08,.15"/>
+			<lyr s="OLD " t="152.23,.46"/>
+			<lyr s="FORD " t="152.69,.46"/>
+		</ln>
+		<ln>
+			<lyr s="PICKUP " t="153.15,.72"/>
+			<lyr s="TRUCK " t="153.87,.34"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="155.36,.15"/>
+			<lyr s="DO " t="155.51,.26"/>
+			<lyr s="MY " t="155.77,.15"/>
+			<lyr s="DRINKIN' " t="155.92,.49"/>
+		</ln>
+		<ln>
+			<lyr s="FROM " t="156.41,.27"/>
+			<lyr s="A " t="156.68,.16"/>
+			<lyr s="DIXIE " t="156.84,.85"/>
+			<lyr s="CUP " t="157.69,.15"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.19" t="157.94,7.51">
+		<ln>
+			<lyr s="HEY " t="159.07,.18"/>
+			<lyr s="I'M " t="159.25,.32"/>
+			<lyr s="A " t="159.57,.12"/>
+			<lyr s="BONA " t="159.69,.48"/>
+			<lyr s="FIDE " t="160.17,.5"/>
+		</ln>
+		<ln>
+			<lyr s="DANCIN' " t="160.67,.73"/>
+			<lyr s="FOOL " t="161.4,.55"/>
+		</ln>
+		<ln>
+			<lyr s="I " t="162.83,.16"/>
+			<lyr s="SHOOT " t="162.99,.3"/>
+			<lyr s="A " t="163.29,.15"/>
+			<lyr s="MIGHTY " t="163.44,.47"/>
+			<lyr s="MEAN " t="163.91,.45"/>
+		</ln>
+		<ln>
+			<lyr s="GAME " t="164.36,.51"/>
+			<lyr s="OF " t="164.87,.26"/>
+			<lyr s="POOL " t="165.13,.22"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.20" t="165.45,7.4">
+		<ln>
+			<lyr s="AT " t="166.52,.19"/>
+			<lyr s="ANY " t="166.71,.45"/>
+			<lyr s="HONKY " t="167.16,.44"/>
+			<lyr s="TONK " t="167.6,.29"/>
+		</ln>
+		<ln>
+			<lyr s="OR " t="167.89,.16"/>
+			<lyr s="ROADSIDE " t="168.05,.98"/>
+			<lyr s="PUB " t="169.03,.42"/>
+		</ln>
+		<ln>
+			<lyr s="WELL " t="170.28,.13"/>
+			<lyr s="I'M " t="170.41,.32"/>
+			<lyr s="A " t="170.73,.14"/>
+			<lyr s="MEMBER " t="170.87,.46"/>
+		</ln>
+		<ln>
+			<lyr s="OF " t="171.33,.28"/>
+			<lyr s="A " t="171.61,.15"/>
+			<lyr s="COUNTRY " t="171.76,.81"/>
+			<lyr s="CLUB " t="172.57,.18"/>
+		</ln>
+	</pg>
+	<pg id="lyrics.21" t="172.85,7.48">
+		<ln>
+			<lyr s="AT " t="173.97,.16"/>
+			<lyr s="ANY " t="174.13,.47"/>
+			<lyr s="HONKY " t="174.6,.45"/>
+			<lyr s="TONK " t="175.05,.31"/>
+		</ln>
+		<ln>
+			<lyr s="OR " t="175.36,.16"/>
+			<lyr s="ROADSIDE " t="175.52,.97"/>
+			<lyr s="PUB " t="176.49,.44"/>
+		</ln>
+		<ln>
+			<lyr s="WELL " t="177.72,.16"/>
+			<lyr s="I'M " t="177.88,.32"/>
+			<lyr s="A " t="178.2,.15"/>
+			<lyr s="MEMBER " t="178.35,.45"/>
+			<lyr s="OF " t="178.8,.28"/>
+		</ln>
+		<ln>
+			<lyr s="A " t="179.08,.15"/>
+			<lyr s="COUNTRY " t="179.23,.81"/>
+			<lyr s="CLUB " t="180.04,.19"/>
+		</ln>
+	</pg>
+	<pg id="credits_page" t="180.33,6.32">
+		Written By:
+		<ln c="text.2" h="+2">CATESBY JONES</ln>
+		<ln c="text.2" h="+2">DENNIS LORD</ln>
+		<ln/>
+		<ln c="text.2">Publisher:</ln>
+		 1988 TRIUMVIRATE MUSIC, INC.,
+		c/o NEW CLARION MUSIC GROUP (BMI)
+		<ln/>
+		<ln c="pt.1" h="-1">ALL RIGHTS RESERVED.</ln>
+		<ln c="pt.1" h="-1">USED BY PERMISSION</ln>
+	</pg>
+	<pg id="closing_page" t="186.65,4.42"/>
+</karaoke>
