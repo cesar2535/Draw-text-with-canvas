@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://cdgmagic.sourceforge.net/html5_cdgplayer/ -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+  <meta name="description" content="Possibly the first and only HTML5/JavaScript CD+G player, showing example content created with free, open source CD+Graphics Magic.">
+
+  <title>CD+Graphics Magic :: HTML5 CD+G Player</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <script src="js/vendor/cdgmagic_cdgplayer.js"></script>
+  <script src="js/vendor/cdgmagic_cdgdecoder_lowresource.js"></script>
+
+  <script src="js/app/app.js"></script>
+</head>
+
+<body>
+
+  <div class="header_box">
+    <span style="color:#ff8800">CD+G</span>
+    <span style="color:#ffffff">raphics Magic :: HTML5 CD+G Player</span>
+  </div>
+
+  <div class="left_navigation">
+    <a href="http://cdgmagic.sourceforge.net/" class="navigation_link">Home</a>
+    <br>
+    <a href="http://www.sourceforge.net/projects/cdgmagic/" title="CD+Graphics Magic Project Page on SourceForge.">Project Page</a>
+    <a href="http://www.sourceforge.net/projects/cdgmagic/files/" title="Download CD+Graphics Magic, files hosted by SourceForge.">Download Files</a>
+    <br>
+    <a href="http://cdgmagic.sourceforge.net/screenshots/" title="Fullsize screenshots showing various options.">Screenshots</a>
+    <a href="./CD+Graphics Magic    HTML5 CD+G Player_files/CD+Graphics Magic    HTML5 CD+G Player.html" title="Example content, playable directly in compatible browsers.">HTML5 CD+G Player<br>(Example Content)</a>
+    <!--<br>
+        <a href="/tutorials/" title="Tutorials for program usage, including general CD+G format information.">Tutorials</a>-->
+  </div>
+  <!--end left_navigation-->
+
+  <div class="right_content">
+    Full and Split Page Cut/Fade modes are planned features still in development.
+    <br>All other modes are demonstrated exactly as implemented in Experimental 001b.
+    <br>
+    <br>
+    <br>
+    <center>
+      <!-- <center> is probably evil, but at least it WORKS... TODO: Determine the proper margin-fu to banish said evil.-->
+      <!-- Note: The audio player is above media display because some default interfaces have controls that extend past the top of the player. -->
+      <audio id="cdg_audio" style="width:324px" controls="" autoplay="">
+        To use the JavaScript Subcode Graphics Player,
+        <br>you must use an HTML5 audio/canvas compatible browser. [audio]
+        <source type="audio/ogg; codecs=&quot;vorbis&quot;" src="media/jonathancoulton_flickr.ogg">
+          <source type="audio/mpeg; codecs=&quot;mp3&quot;" src="media/jonathancoulton_flickr.mp3">
+      </audio>
+
+      <div id="cdg_border" style="width: 324px; height: 216px; background-color: rgb(68, 68, 102);" ondblclick="toggle_2x_mode();">
+        <canvas id="cdg_canvas" width="288" height="192" style="padding:12px">
+          <!--style="image-rendering: optimizeSpeed"-->
+          To use the JavaScript Subcode Graphics Player,
+          <br>you must use an HTML5 audio/canvas compatible browser. [canvas]
+        </canvas>
+      </div>
+
+      <div id="cdg_status" style="width:320px; padding:2px; margin:4px; text-align:left; font-family:arial; font-size:1.0em/*0.8em*/; color:#00dddd; background-color:#444444">Status: Graphics download complete.</div>
+
+      <select onchange="set_file_prefix(this.value)" size="1" style="width:324px; margin:0px; color:#00dddd; background-color:#444444">
+        <option value=""></option>
+        <option value="60sec_silence:sample_project_01">Sample Project 01 (Included with Experimental 000)</option>
+        <option value="60sec_silence:sample_project_02">Sample Project 02 (Included with Experimental 001)</option>
+        <option value="60sec_silence:sample_project_03">Sample Project 03 (Included with Experimental 001a)</option>
+        <option value="60sec_silence:sample_project_03b">Sample Project 03b (Included with Experimental 001b)</option>
+        <option value="60sec_silence:sample_project_04">Sample Project 04 (Included with Experimental 001b)</option>
+        <option value="jonathancoulton_flickr:jonathancoulton_flickr_linea">Jonathan Coulton - Flickr (Karaoke Line Method A)</option>
+        <option value="jonathancoulton_flickr:jonathancoulton_flickr_lineb">Jonathan Coulton - Flickr (Karaoke Line Method B)</option>
+        <option value="jonathancoulton_flickr:jonathancoulton_flickr_page">Jonathan Coulton - Flickr (Karaoke Page)</option>
+        <option value="jonathancoulton_flickr:jonathancoulton_flickr_linepal">Jonathan Coulton - Flickr (Karaoke Line Fade)</option>
+        <option value="jonathancoulton_flickr:jonathancoulton_flickr_pagecut">Jonathan Coulton - Flickr (Karaoke Full Page Cut)</option>
+        <option value="jonathancoulton_flickr:jonathancoulton_flickr_pagesplit">Jonathan Coulton - Flickr (Karaoke Split Page Dissolve)</option>
+        <option value="loveshadow_heartonredial:loveshadow_heartonredial_example01">Loveshadow - Heart on Redial (Multimedia Example 01)</option>
+      </select>
+    </center>
+    <br>
+    <br>This JavaScript based player should work in most HTML5 compatible browsers supporting both the &lt;canvas&gt; and &lt;audio&gt; (note: "Sample Project" 01-04 are silent) tags, including many mobile and embedded devices.
+    <br>Double-click "screen area" to toggle 2x zoom mode (which may consume large amounts of CPU time on certain hardware/software configurations).
+    <br>
+    <br>It is, like the main application, licensed under the terms of the <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL v2</a> (or later).
+    <br>(However, please do not hotlink the script from this site... COPY IT TO YOUR WEB SERVER!)
+    <br>
+    <br>Sync and timing accuracy, unfortunately, varies with that of the underlying browser implementation.
+    <br>Perfectly smooth scrolling is not implemented in this version for performance reasons, although block based scrolls work correctly.
+    <br>
+    <br>
+    <a href="http://www.jonathancoulton.com/songdetails/Flickr">"Flickr"</a> by <a href="http://www.jonathancoulton.com/">Jonathan Coulton</a> used under <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported</a> license.
+    <br>
+    <br>
+    <a href="http://ccmixter.org/files/Loveshadow/26157">"Heart on Redial"</a> by <a href="http://ccmixter.org/people/Loveshadow">Loveshadow</a> used under <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported</a> license.
+    <br>
+    <a href="http://cdgmagic.sourceforge.net/html5_cdgplayer/loveshadow_heartonredial_credits.html">Loveshadow - Heart on Redial Complete Music and Images Credits and Licenses Table</a>
+  </div>
+  <!--end right_content-->
+
+  <div class="footer">
+  </div>
+</body>
+
+</html>
