@@ -1,0 +1,84 @@
+{
+  "id": "C00001",
+  "d": 160.65,
+  "genre": "Country",
+  "copyright": 1997,
+  "status": "unverified",
+  "define": {
+    "colors": [{
+      "id": "wipe.1",
+      "value": "240,240,240"
+    }, {
+      "id": "pt.1",
+      "value": "240,160,0"
+    }, {
+      "id": "text.1",
+      "value": "240,240,240"
+    }, {
+      "id": "text.2",
+      "value": "224,0,0"
+    }]
+  },
+  "pages": [{
+    "id": "title_page",
+    "start_time": 0,
+    "duration": 8.51,
+    "box": [{
+      "id": "title",
+      "color": "text.2",
+      "text": "Ain't Nobody's Business"
+    }, {
+      "id": "style",
+      "text": "In The Style Of Hank Williams Jr."
+    }, {
+      "id": "info",
+      "color": "pt.1",
+      "text": "Key Of (F) Time: 2:33"
+    }]
+  }, {
+    "id": "lyrics.1",
+    "start_time": 8.51,
+    "duration": 11.67,
+    "count": {
+      "color": "pt.1",
+      "start_time": "12.11",
+      "duration": "2.64",
+      "n": 4
+    },
+    "ln": [{
+      "lyr": [{
+        "s": "ONE ",
+        "start_time": 15.55,
+        "duration": 0.4
+      }, {
+        "s": "DAY ",
+        "start_time": 15.95,
+        "duration": 1.52
+      }]
+    }, {
+      "lyr": [{
+        "s": "I ",
+        "start_time": 18.49,
+        "duration": 0.22
+      }, {
+        "s": "HAVE ",
+        "start_time": 18.71,
+        "duration": 0.22
+      }]
+    }, {
+      "lyr": [{
+        "s": "HAM ",
+        "start_time": 18.93,
+        "duration": 0.3
+      }, {
+        "s": "AND ",
+        "start_time": 19.23,
+        "duration": 0.24
+      }, {
+        "s": "BACON ",
+        "start_time": 19.47,
+        "duration": 0.61
+      }]
+    }]
+  }]
+}

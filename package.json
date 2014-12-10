@@ -1,0 +1,30 @@
+{
+  "name": "CDGraphics",
+  "version": "0.0.1",
+  "description": "with HTML5 Canvas",
+  "main": "server.js",
+  "dependencies": {
+    "xml2json": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesar2535/Draw-text-with-canvas.git"
+  },
+  "keywords": [
+    "canvas",
+    "xml",
+    "json",
+    "lyrics"
+  ],
+  "author": "cesar2535",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesar2535/Draw-text-with-canvas/issues"
+  },
+  "homepage": "https://github.com/cesar2535/Draw-text-with-canvas"
+}

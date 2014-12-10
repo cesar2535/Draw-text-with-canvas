@@ -14,5 +14,12 @@
     this.context = this.canvas.getContext('2d');
   };
   
+  KaraokeDrawer.prototype.drawText = function(text, color) {
+    this.context.fillStyle = color;
+    this.context.font =  "24px Helvetica";
+    this.context.textAlign = "left";
+    this.context.textBaseline = "top";
+    this.context.fillText(text, 32, 32);
+  };
   window.KaraokeDrawer = KaraokeDrawer;
 }) ();
