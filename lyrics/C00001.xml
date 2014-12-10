@@ -1,243 +1,239 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <karaoke id="C00001" d="160.65" genre="Country" copyright="1997" status="unverified">
-	<!-- File Copyright 2008 Chartbuster Karaoke.  All rights reserved. -->
-	<define>
-		<color id="wipe.1" val="240,240,240"/>
-		<color id="pt.1" val="240,160,0"/>
-		<color id="text.1" val="240,240,240"/>
-		<color id="text.2" val="224,0,0"/>
-	</define>
-	<pg id="title_page" t="0,8.51">
-		<box id="title" c="text.2">
-			Ain't Nobody's
-			Business
-		</box>
-		<box id="style">
-			In The Style Of
-			Hank Williams Jr.
-		</box>
-		<box id="info" c="pt.1">
-			Key Of (F)
-			Time: 2:33
-		</box>
-	</pg>
-	<pg id="lyrics.1" t="8.51,11.67">
-		<count c="pt.1" t="12.11,2.64" n="4"/>
-		<ln>
-			<lyr s="ONE " t="15.55,.4"/>
-			<lyr s="DAY " t="15.95,1.52"/>
-		</ln>
-		<ln>
-			<lyr s="I " t="18.49,.22"/>
-			<lyr s="HAVE " t="18.71,.22"/>
-		</ln>
-		<ln>
-			<lyr s="HAM " t="18.93,.3"/>
-			<lyr s="AND " t="19.23,.24"/>
-			<lyr s="BACON " t="19.47,.61"/>
-		</ln>
-	</pg>
-	<pg id="lyrics.2" t="20.18,17.12">
-		<ln>
-			<lyr s="AND " t="22.01,.36"/>
-			<lyr s="THE " t="22.37,.24"/>
-			<lyr s="NEXT " t="22.61,.22"/>
-			<lyr s="DAY " t="22.83,2.1"/>
-		</ln>
-		<ln>
-			<lyr s="IT " t="25.91,.3"/>
-			<lyr s="AIN'T " t="26.21,.16"/>
-			<lyr s="NOTHIN' " t="26.37,.5"/>
-			<lyr s="SHAKIN' " t="26.87,1.77"/>
-		</ln>
-		<ln>
-			<lyr s="AND " t="29.12,.23"/>
-			<lyr s="IT " t="29.35,.17"/>
-			<lyr s="AIN'T " t="29.52,.23"/>
-			<lyr s="NOBODY'S " t="29.75,.85"/>
-		</ln>
-		<ln>
-			<lyr s="BUSINESS " t="30.6,1.73"/>
-		</ln>
-		<ln>
-			<lyr s="IF " t="33.15,.25"/>
-			<lyr s="I " t="33.4,.33"/>
-			<lyr s="DO " t="33.73,.8"/>
-			<lyr s="WHAT " t="35.32,.25"/>
-			<lyr s="I " t="35.57,.35"/>
-			<lyr s="DO " t="35.92,1.28"/>
-		</ln>
-	</pg>
-	<pg id="lyrics.3" t="37.3,17.85">
-		<count c="pt.1" t="39.75,2.53" n="4"/>
-		<ln>
-			<lyr s="ME " t="42.75,.48"/>
-			<lyr s="AND " t="43.23,.14"/>
-			<lyr s="MY " t="43.37,.26"/>
-			<lyr s="BABY " t="43.63,1.41"/>
-		</ln>
-		<ln>
-			<lyr s="OH " t="46.09,.31"/>
-			<lyr s="WE " t="46.4,.45"/>
-			<lyr s="FUSS " t="46.85,.34"/>
-			<lyr s="AND " t="47.19,.22"/>
-			<lyr s="FIGHT " t="47.41,1.72"/>
-		</ln>
-		<ln>
-			<lyr s="AND " t="49.99,.41"/>
-			<lyr s="THE " t="50.4,.19"/>
-			<lyr s="NEXT " t="50.59,.4"/>
-			<lyr s="MINUTE " t="50.99,.9"/>
-		</ln>
-		<ln>
-			<lyr s="EVERYTHING'S " t="53.01,1.03"/>
-			<lyr s="ALRIGHT " t="54.04,1.01"/>
-		</ln>
-	</pg>
-	<pg id="lyrics.4" t="55.15,14">
-		<ln>
-			<lyr s="AND " t="56.37,.14"/>
-			<lyr s="IT " t="56.51,.12"/>
-			<lyr s="AIN'T " t="56.63,.29"/>
-		</ln>
-		<ln>
-			<lyr s="NOBODY'S " t="56.92,.89"/>
-			<lyr s="BUSINESS " t="57.81,2.02"/>
-		</ln>
-		<ln>
-			<lyr s="WHAT " t="62.44,.28"/>
-			<lyr s="WE " t="62.72,.32"/>
-			<lyr s="DO " t="63.04,1.79"/>
-		</ln>
-		<ln>
-			<lyr s="Mmm " t="65.48,1.12"/>
-			<lyr s="Mmm " t="66.6,.69"/>
-		</ln>
-		<ln>
-			<lyr s="BUT " t="67.8,.17"/>
-			<lyr s="THAT'S " t="67.97,.19"/>
-			<lyr s="ALL " t="68.16,.19"/>
-		</ln>
-		<ln>
-			<lyr s="PRIVATE " t="68.35,.3"/>
-			<lyr s="STUFF " t="68.65,.4"/>
-		</ln>
-	</pg>
-	<pg id="break.1" t="69.15,18.23">
-		<ln>
-			<lyr s="8 " t="70.67,.93"/>
-			<lyr s="BAR " t="71.6,.95"/>
-		</ln>
-		<ln>
-			<lyr s="INSTRUMENTAL " t="72.55,11.21"/>
-		</ln>
-		<ln>
-			<lyr s="BREAK " t="83.76,3.52"/>
-		</ln>
-	</pg>
-	<pg id="lyrics.5" t="87.38,23.44">
-		<count c="pt.1" t="94.93,2.55" n="4"/>
-		<ln>
-			<lyr s="ONE " t="98.25,.48"/>
-			<lyr s="DAY " t="98.73,1.96"/>
-		</ln>
-		<ln>
-			<lyr s="I " t="101.32,.23"/>
-			<lyr s="THINK " t="101.55,.38"/>
-			<lyr s="I'M " t="101.93,.26"/>
-			<lyr s="GOIN' " t="102.19,.37"/>
-			<lyr s="CRAZY " t="102.56,1.84"/>
-		</ln>
-		<ln>
-			<lyr s="AND " t="105.55,.16"/>
-			<lyr s="THE " t="105.71,.25"/>
-			<lyr s="NEXT " t="105.96,.25"/>
-			<lyr s="DAY " t="106.21,1.11"/>
-		</ln>
-		<ln>
-			<lyr s="I'M " t="107.32,.39"/>
-			<lyr s="LAID " t="107.71,.73"/>
-			<lyr s="BACK " t="108.44,.59"/>
-			<lyr s="AND " t="109.03,.88"/>
-			<lyr s="LAZY " t="109.91,.81"/>
-		</ln>
-	</pg>
-	<pg id="lyrics.6" t="110.82,8.48">
-		<ln>
-			<lyr s="AND " t="112.01,.16"/>
-			<lyr s="IT " t="112.17,.14"/>
-			<lyr s="AIN'T " t="112.31,.22"/>
-		</ln>
-		<ln>
-			<lyr s="NOBODY'S " t="112.53,.67"/>
-			<lyr s="BUSINESS " t="113.2,2.35"/>
-		</ln>
-		<ln>
-			<lyr s="IF " t="117.72,.23"/>
-			<lyr s="I " t="117.95,.3"/>
-			<lyr s="DO " t="118.25,.95"/>
-		</ln>
-	</pg>
-	<pg id="lyrics.7" t="119.3,18.4">
-		<count c="pt.1" t="122.57,2.6" n="4"/>
-		<ln>
-			<lyr s="ONE " t="125.91,.41"/>
-			<lyr s="DAY " t="126.32,1.23"/>
-		</ln>
-		<ln>
-			<lyr s="I " t="129.09,.27"/>
-			<lyr s="MIGHT " t="129.36,.2"/>
-			<lyr s="TAKE " t="129.56,.2"/>
-			<lyr s="A " t="129.76,.21"/>
-			<lyr s="NOTION " t="129.97,2.27"/>
-		</ln>
-		<ln>
-			<lyr s="TO " t="132.67,.26"/>
-			<lyr s="RUN " t="132.93,.31"/>
-			<lyr s="RIGHT " t="133.24,.47"/>
-		</ln>
-		<ln>
-			<lyr s="DOWN " t="133.71,.45"/>
-			<lyr s="THERE " t="134.16,.68"/>
-			<lyr s="AND " t="134.84,1.16"/>
-		</ln>
-		<ln>
-			<lyr s="JUMP " t="136,.32"/>
-			<lyr s="IN " t="136.32,.52"/>
-			<lyr s="THE " t="136.84,.25"/>
-			<lyr s="OCEAN " t="137.09,.51"/>
-		</ln>
-	</pg>
-	<pg id="lyrics.8" t="137.7,10.51">
-		<ln>
-			<lyr s="AND " t="139.16,.17"/>
-			<lyr s="IT " t="139.33,.19"/>
-			<lyr s="AIN'T " t="139.52,.23"/>
-		</ln>
-		<ln>
-			<lyr s="NOBODY'S " t="139.75,1.24"/>
-			<lyr s="BUSINESS " t="140.99,1.41"/>
-		</ln>
-		<ln>
-			<lyr s="IF " t="145.17,1.54"/>
-			<lyr s="I " t="146.71,.33"/>
-			<lyr s="DO " t="147.04,1.07"/>
-		</ln>
-	</pg>
-	<pg id="credits_page" t="148.21,8.02">
-		Written By:
-		<ln c="text.2" h="+1">PORTER GRAINGER</ln>
-		<ln c="text.2" h="+1">CLARENCE WILLIAMS</ln>
-		<ln c="text.2" h="+1">JAMES WITHERSPOON</ln>
-		<ln c="text.2" h="+1">ROBERT GRAHAM PRINCE</ln>
-		<ln/>
-		<ln c="text.2">
-			<str s="Publishers:     "/>
-			<str s="MCA MUSIC PUBLISHING, " c="text.1"/>
-		</ln>
-		(a division of UNIVERSAL STUDIOS) (ASCAP)
-		THE SONGWRITERS GUILD
-		<ln c="pt.1" h="-1">ALL RIGHTS RESERVED.    USED BY PERMISSION.</ln>
-	</pg>
-	<pg id="closing_page" t="156.23,4.42"/>
+  <!-- File Copyright 2008 Chartbuster Karaoke.  All rights reserved. -->
+  <define>
+    <color id="wipe.1" val="240,240,240" />
+    <color id="pt.1" val="240,160,0" />
+    <color id="text.1" val="240,240,240" />
+    <color id="text.2" val="224,0,0" />
+  </define>
+  <pg id="title_page" t="0,8.51">
+    <box id="title" c="text.2">
+      Ain't Nobody's Business
+    </box>
+    <box id="style">
+      In The Style Of Hank Williams Jr.
+    </box>
+    <box id="info" c="pt.1">
+      Key Of (F) Time: 2:33
+    </box>
+  </pg>
+  <pg id="lyrics.1" t="8.51,11.67">
+    <count c="pt.1" t="12.11,2.64" n="4" />
+    <ln>
+      <lyr s="ONE " t="15.55,.4" />
+      <lyr s="DAY " t="15.95,1.52" />
+    </ln>
+    <ln>
+      <lyr s="I " t="18.49,.22" />
+      <lyr s="HAVE " t="18.71,.22" />
+    </ln>
+    <ln>
+      <lyr s="HAM " t="18.93,.3" />
+      <lyr s="AND " t="19.23,.24" />
+      <lyr s="BACON " t="19.47,.61" />
+    </ln>
+  </pg>
+  <pg id="lyrics.2" t="20.18,17.12">
+    <ln>
+      <lyr s="AND " t="22.01,.36" />
+      <lyr s="THE " t="22.37,.24" />
+      <lyr s="NEXT " t="22.61,.22" />
+      <lyr s="DAY " t="22.83,2.1" />
+    </ln>
+    <ln>
+      <lyr s="IT " t="25.91,.3" />
+      <lyr s="AIN'T " t="26.21,.16" />
+      <lyr s="NOTHIN' " t="26.37,.5" />
+      <lyr s="SHAKIN' " t="26.87,1.77" />
+    </ln>
+    <ln>
+      <lyr s="AND " t="29.12,.23" />
+      <lyr s="IT " t="29.35,.17" />
+      <lyr s="AIN'T " t="29.52,.23" />
+      <lyr s="NOBODY'S " t="29.75,.85" />
+    </ln>
+    <ln>
+      <lyr s="BUSINESS " t="30.6,1.73" />
+    </ln>
+    <ln>
+      <lyr s="IF " t="33.15,.25" />
+      <lyr s="I " t="33.4,.33" />
+      <lyr s="DO " t="33.73,.8" />
+      <lyr s="WHAT " t="35.32,.25" />
+      <lyr s="I " t="35.57,.35" />
+      <lyr s="DO " t="35.92,1.28" />
+    </ln>
+  </pg>
+  <pg id="lyrics.3" t="37.3,17.85">
+    <count c="pt.1" t="39.75,2.53" n="4" />
+    <ln>
+      <lyr s="ME " t="42.75,.48" />
+      <lyr s="AND " t="43.23,.14" />
+      <lyr s="MY " t="43.37,.26" />
+      <lyr s="BABY " t="43.63,1.41" />
+    </ln>
+    <ln>
+      <lyr s="OH " t="46.09,.31" />
+      <lyr s="WE " t="46.4,.45" />
+      <lyr s="FUSS " t="46.85,.34" />
+      <lyr s="AND " t="47.19,.22" />
+      <lyr s="FIGHT " t="47.41,1.72" />
+    </ln>
+    <ln>
+      <lyr s="AND " t="49.99,.41" />
+      <lyr s="THE " t="50.4,.19" />
+      <lyr s="NEXT " t="50.59,.4" />
+      <lyr s="MINUTE " t="50.99,.9" />
+    </ln>
+    <ln>
+      <lyr s="EVERYTHING'S " t="53.01,1.03" />
+      <lyr s="ALRIGHT " t="54.04,1.01" />
+    </ln>
+  </pg>
+  <pg id="lyrics.4" t="55.15,14">
+    <ln>
+      <lyr s="AND " t="56.37,.14" />
+      <lyr s="IT " t="56.51,.12" />
+      <lyr s="AIN'T " t="56.63,.29" />
+    </ln>
+    <ln>
+      <lyr s="NOBODY'S " t="56.92,.89" />
+      <lyr s="BUSINESS " t="57.81,2.02" />
+    </ln>
+    <ln>
+      <lyr s="WHAT " t="62.44,.28" />
+      <lyr s="WE " t="62.72,.32" />
+      <lyr s="DO " t="63.04,1.79" />
+    </ln>
+    <ln>
+      <lyr s="Mmm " t="65.48,1.12" />
+      <lyr s="Mmm " t="66.6,.69" />
+    </ln>
+    <ln>
+      <lyr s="BUT " t="67.8,.17" />
+      <lyr s="THAT'S " t="67.97,.19" />
+      <lyr s="ALL " t="68.16,.19" />
+    </ln>
+    <ln>
+      <lyr s="PRIVATE " t="68.35,.3" />
+      <lyr s="STUFF " t="68.65,.4" />
+    </ln>
+  </pg>
+  <pg id="break.1" t="69.15,18.23">
+    <ln>
+      <lyr s="8 " t="70.67,.93" />
+      <lyr s="BAR " t="71.6,.95" />
+    </ln>
+    <ln>
+      <lyr s="INSTRUMENTAL " t="72.55,11.21" />
+    </ln>
+    <ln>
+      <lyr s="BREAK " t="83.76,3.52" />
+    </ln>
+  </pg>
+  <pg id="lyrics.5" t="87.38,23.44">
+    <count c="pt.1" t="94.93,2.55" n="4" />
+    <ln>
+      <lyr s="ONE " t="98.25,.48" />
+      <lyr s="DAY " t="98.73,1.96" />
+    </ln>
+    <ln>
+      <lyr s="I " t="101.32,.23" />
+      <lyr s="THINK " t="101.55,.38" />
+      <lyr s="I'M " t="101.93,.26" />
+      <lyr s="GOIN' " t="102.19,.37" />
+      <lyr s="CRAZY " t="102.56,1.84" />
+    </ln>
+    <ln>
+      <lyr s="AND " t="105.55,.16" />
+      <lyr s="THE " t="105.71,.25" />
+      <lyr s="NEXT " t="105.96,.25" />
+      <lyr s="DAY " t="106.21,1.11" />
+    </ln>
+    <ln>
+      <lyr s="I'M " t="107.32,.39" />
+      <lyr s="LAID " t="107.71,.73" />
+      <lyr s="BACK " t="108.44,.59" />
+      <lyr s="AND " t="109.03,.88" />
+      <lyr s="LAZY " t="109.91,.81" />
+    </ln>
+  </pg>
+  <pg id="lyrics.6" t="110.82,8.48">
+    <ln>
+      <lyr s="AND " t="112.01,.16" />
+      <lyr s="IT " t="112.17,.14" />
+      <lyr s="AIN'T " t="112.31,.22" />
+    </ln>
+    <ln>
+      <lyr s="NOBODY'S " t="112.53,.67" />
+      <lyr s="BUSINESS " t="113.2,2.35" />
+    </ln>
+    <ln>
+      <lyr s="IF " t="117.72,.23" />
+      <lyr s="I " t="117.95,.3" />
+      <lyr s="DO " t="118.25,.95" />
+    </ln>
+  </pg>
+  <pg id="lyrics.7" t="119.3,18.4">
+    <count c="pt.1" t="122.57,2.6" n="4" />
+    <ln>
+      <lyr s="ONE " t="125.91,.41" />
+      <lyr s="DAY " t="126.32,1.23" />
+    </ln>
+    <ln>
+      <lyr s="I " t="129.09,.27" />
+      <lyr s="MIGHT " t="129.36,.2" />
+      <lyr s="TAKE " t="129.56,.2" />
+      <lyr s="A " t="129.76,.21" />
+      <lyr s="NOTION " t="129.97,2.27" />
+    </ln>
+    <ln>
+      <lyr s="TO " t="132.67,.26" />
+      <lyr s="RUN " t="132.93,.31" />
+      <lyr s="RIGHT " t="133.24,.47" />
+    </ln>
+    <ln>
+      <lyr s="DOWN " t="133.71,.45" />
+      <lyr s="THERE " t="134.16,.68" />
+      <lyr s="AND " t="134.84,1.16" />
+    </ln>
+    <ln>
+      <lyr s="JUMP " t="136,.32" />
+      <lyr s="IN " t="136.32,.52" />
+      <lyr s="THE " t="136.84,.25" />
+      <lyr s="OCEAN " t="137.09,.51" />
+    </ln>
+  </pg>
+  <pg id="lyrics.8" t="137.7,10.51">
+    <ln>
+      <lyr s="AND " t="139.16,.17" />
+      <lyr s="IT " t="139.33,.19" />
+      <lyr s="AIN'T " t="139.52,.23" />
+    </ln>
+    <ln>
+      <lyr s="NOBODY'S " t="139.75,1.24" />
+      <lyr s="BUSINESS " t="140.99,1.41" />
+    </ln>
+    <ln>
+      <lyr s="IF " t="145.17,1.54" />
+      <lyr s="I " t="146.71,.33" />
+      <lyr s="DO " t="147.04,1.07" />
+    </ln>
+  </pg>
+  <pg id="credits_page" t="148.21,8.02">
+    Written By:
+    <ln c="text.2" h="+1">PORTER GRAINGER</ln>
+    <ln c="text.2" h="+1">CLARENCE WILLIAMS</ln>
+    <ln c="text.2" h="+1">JAMES WITHERSPOON</ln>
+    <ln c="text.2" h="+1">ROBERT GRAHAM PRINCE</ln>
+    <ln/>
+    <ln c="text.2">
+      <str s="Publishers:     " />
+      <str s="MCA MUSIC PUBLISHING, " c="text.1" />
+    </ln>
+    (a division of UNIVERSAL STUDIOS) (ASCAP) THE SONGWRITERS GUILD
+    <ln c="pt.1" h="-1">ALL RIGHTS RESERVED. USED BY PERMISSION.</ln>
+  </pg>
+  <pg id="closing_page" t="156.23,4.42" />
 </karaoke>
