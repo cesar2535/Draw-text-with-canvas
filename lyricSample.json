@@ -1,13 +1,13 @@
 {
-  "id": "C00001",
-  "d": 160.65,
+  "id": "C00001",         // An unique id of lyrics file
+  "d": 160.65,          // The duration of song
   "genre": "Country",
   "copyright": 1997,
   "status": "unverified",
   "define": {
     "colors": [{
-      "id": "wipe.1",
-      "value": "240,240,240"
+      "id": "wipe.1",         // An unique id of color
+      "value": "240,240,240"          // The color with R,G,B value
     }, {
       "id": "pt.1",
       "value": "240,160,0"
@@ -19,14 +19,14 @@
       "value": "224,0,0"
     }]
   },
-  "pages": [{
-    "id": "title_page",
-    "start_time": 0,
-    "duration": 8.51,
-    "box": [{
+  "pages": [{         // An objects array of lyrics pages
+    "id": "title_page",       // An unique id of page
+    "start_time": 0,          // The time when page display
+    "duration": 8.51,         // The duration of page display
+    "box": [{         // A text box appear only within title page
       "id": "title",
-      "color": "text.2",
-      "text": "Ain't Nobody's Business"
+      "color": "text.2",          // A color by the id from define
+      "text": "Ain't Nobody's Business"         // The display content
     }, {
       "id": "style",
       "text": "In The Style Of Hank Williams Jr."
@@ -39,15 +39,15 @@
     "id": "lyrics.1",
     "start_time": 8.51,
     "duration": 11.67,
-    "count": {
+    "count": {          // The bullet symbols
       "color": "pt.1",
-      "start_time": "12.11",
-      "duration": "2.64",
-      "n": 4
+      "start_time": 12.11,
+      "duration": 2.64,
+      "n": 4          // the count of bullets
     },
-    "ln": [{
-      "lyr": [{
-        "s": "ONE ",
+    "ln": [{          // An object array of text line
+      "lyr": [{         // An object array of string would be highlighted 
+        "s": "ONE ",        
         "start_time": 15.55,
         "duration": 0.4
       }, {

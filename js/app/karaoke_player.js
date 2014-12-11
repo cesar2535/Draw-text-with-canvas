@@ -11,6 +11,8 @@
     this.drawer = undefined;
     this.queue = [];
     this.history = [];
+    this.currentMediaTime = 0;
+    this.currentMediaDuration = 0;
 
     this.initial(canvasId, playerId);
   };
@@ -22,7 +24,7 @@
   };
 
   KaraokePlayer.prototype.initializeAudioEvents = function() {
-
+    
   };
 
   KaraokePlayer.prototype.playMedia = function() {
@@ -34,11 +36,39 @@
 
   };
 
+  KaraokePlayer.prototype.onLoadStartListener = function() {
+    console.info('----- load start -----');
+  };
+
+  KaraokePlayer.prototype.onDurationChangeListener = function() {
+    console.info('----- duration change -----');
+  };
+
+  KaraokePlayer.prototype.onLoadedMetadataListener = function() {
+    console.info('----- loaded metadata -----');
+  };
+
+  KaraokePlayer.prototype.onLoadedDataListener = function() {
+    console.info('----- loaded data -----');
+  };
+
+  KaraokePlayer.prototype.onProgressListener = function() {
+    console.info('----- progress -----');
+  };
+
+  KaraokePlayer.prototype.onCanPlayListener = function() {
+    console.info('----- can play -----');
+  };
+
+  KaraokePlayer.prototype.onCanPlayThroughListener = function() {
+    console.info('----- can play through -----');
+  };
+
   KaraokePlayer.prototype.onPlayListener = function() {
     
   };
 
-  KaraokePlayer.prototype.onPauseListener = function() {
+  KaraokePlayer.prototype.onEndedListener = function() {
 
   };
 

@@ -21,5 +21,10 @@
     this.context.textBaseline = "top";
     this.context.fillText(text, 32, 32);
   };
+
+  KaraokeDrawer.prototype.drawPage = function(text, color, startTime, duration) {
+    
+  };
+
   window.KaraokeDrawer = KaraokeDrawer;
 }) ();
