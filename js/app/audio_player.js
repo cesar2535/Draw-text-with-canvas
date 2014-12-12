@@ -15,7 +15,7 @@
   var AudioPlayer = function () {
     this.player = document.getElementById('audio-player');
     this.currentState = PLAYER_STATE.IDLE;
-    this.playerlist = [];
+    this.playlist = [];
 
     this.timer = undefined;
     this.timeSteps = 100;
@@ -28,9 +28,44 @@
 
   AudioPlayer.prototype.init = function() {
     if (this.player)
-      throw new Error('No player here!');
+      throw new Error('No audio-player here!');
 
     this.initializeAudioEvents();
+  };
+
+  AudioPlayer.prototype.loadMedia = function() {
+    this.player.src = this.playlist[0].src
+    this.player.load();
+  };
+
+  AudioPlayer.prototype.playMedia = function() {
+    if (this.playlist.length <= 0) {
+      console.error('Playlist is empty');
+      return;
+    }
+
+    if (!this.canPlayFlag) {
+      console.error('No media can play (load)');
+      return;
+    }
+
+    this.player.play();
+  };
+
+  AudioPlayer.prototype.nextMedia = function() {
+    if (this.playlist.length <= 0) {
+      console.error('Playlist is empty');
+      return;
+    }
+
+    this.playlist.shift();
+
+    if (this.playlist[0]) {
+      this.loadMedia();
+      this.playMedia();
+    } else {
+      console.error('No next media');
+    }
   };
 
   AudioPlayer.prototype.initializeAudioEvents = function() {
@@ -85,11 +120,12 @@
 
   AudioPlayer.prototype.onPlayListener = function() {
     console.info('----- Play Media: ' + this.player.currentSrc + ' -----');
-    
+    this.currentState = PLAYER_STATE.PLAYING;
   };
 
   AudioPlayer.prototype.onPauseListener = function() {
     console.info('----- Media Pause -----');
+    this.currentState = PLAYER_STATE.PAUSED;
     if (this.timer) {
       clearInterval(this.timer);
       this.timer = undefined;
@@ -99,6 +135,8 @@
 
   AudioPlayer.prototype.onEndedListener = function() {
     console.info('----- Media Ended -----');
+    if (this.playlist.length === 0)
+      this.currentState = PLAYER_STATE.IDLE;
   };
 
 }) ();
