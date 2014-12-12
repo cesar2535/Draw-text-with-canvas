@@ -27,7 +27,7 @@
   };
 
   AudioPlayer.prototype.init = function() {
-    if (this.player)
+    if (!this.player)
       throw new Error('No audio-player here!');
 
     this.initializeAudioEvents();
@@ -66,6 +66,21 @@
     } else {
       console.error('No next media');
     }
+  };
+
+  AudioPlayer.prototype.addToPlaylist = function(file) {
+    var oldLength = this.playlist.length;
+
+    if (Array.isArray(file))
+      this.playlist = this.playlist.concat(file);
+    else
+      this.playlist.push(file);
+
+    if (oldLength <= 0) {
+      this.loadMedia();
+      this.playMedia();
+    }
+
   };
 
   AudioPlayer.prototype.initializeAudioEvents = function() {
@@ -138,5 +153,7 @@
     if (this.playlist.length === 0)
       this.currentState = PLAYER_STATE.IDLE;
   };
+
+  window.AudioPlayer = AudioPlayer;
 
 }) ();
