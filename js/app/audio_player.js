@@ -12,7 +12,7 @@
     'ERROR': 'ERROR'
   };
 
-  var AudioPlayer = function (playerId) {
+  var AudioPlayer = function () {
     this.player = document.getElementById('audio-player');
     this.currentState = PLAYER_STATE.IDLE;
     this.playerlist = [];

@@ -10,7 +10,7 @@
 
   var JWplayer = function () {
     this.player = undefined;
-    this.currentState = JWPLAYER_STATE.IDLE;
+    this.currentState = PLAYER_STATE.IDLE;
 
     // @type {Array} An array for the media playlist
     this.playlist = [];
@@ -31,6 +31,8 @@
     // @type {Number} A number for current media duration
     this.currentMediaDuration = 0;
     this.currentMediaTime = 0;
+
+    this.playlistAddFlag = false;
   }
 
   JWplayer.prototype.setupJwplayer = function(container, setupConfig) {
@@ -51,19 +53,23 @@
   };
 
   JWplayer.prototype.onPlayListener = function(event) {
-    this.currentState = JWPLAYER_STATE.PLAYING;
+    console.info(event.oldstate);
+    this.currentState = PLAYER_STATE.PLAYING;
   };
 
   JWplayer.prototype.onPauseListener = function(event) {
-    this.currentState = JWPLAYER_STATE.PAUSED;
+    console.info(event.oldstate);
+    this.currentState = PLAYER_STATE.PAUSED;
   };
 
   JWplayer.prototype.onBufferListener = function(event) {
-    this.currentState = JWPLAYER_STATE.BUFFERING;
+    console.info(event.oldstate);
+    this.currentState = PLAYER_STATE.BUFFERING;
   };
 
   JWplayer.prototype.onIdleListener = function(event) {
-    this.currentState = JWPLAYER_STATE.IDLE;
+    console.info(event.oldstate);
+    this.currentState = PLAYER_STATE.IDLE;
   };
 
   JWplayer.prototype.onCompleteListener = function() {
@@ -75,7 +81,10 @@
   };
 
   JWplayer.prototype.onPlaylistListener = function(event) {
-    
+    if (this.playlistAddFlag) {
+      this.seek(this.currentMediaTime);
+      this.playlistChangeFlag = false;
+    }
   };
 
   JWplayer.prototype.addToPlaylist = function(file) {
@@ -89,6 +98,18 @@
     } else {
       this.playlist.push(file);
     }
+
+    if (this.currentState === 'PLAYING' || this.currentState === 'PAUSED') {
+      this.playlistAddFlag = true;
+      this.currentMediaTime = this.player.getPosition();
+    }
+
+    this.player.load(this.playlist);
+  };
+
+  JWplayer.prototype.seek = function(position) {
+    this.player.seek(position);
+    this.currentMediaTime = position;
   };
 
 }) ();

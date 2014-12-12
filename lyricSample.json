@@ -1,11 +1,11 @@
 {
   "id": "C00001",         // An unique id of lyrics file
-  "d": 160.65,          // The duration of song
+  "d": 160650,          // The duration of song
   "genre": "Country",
-  "copyright": 1997,
+  "copyright": "1997",
   "status": "unverified",
   "define": {
-    "colors": [{
+    "colors": [{            // An array for all of pre-defined colors
       "id": "wipe.1",         // An unique id of color
       "value": "240,240,240"          // The color with R,G,B value
     }, {
@@ -22,7 +22,7 @@
   "pages": [{         // An objects array of lyrics pages
     "id": "title_page",       // An unique id of page
     "start_time": 0,          // The time when page display
-    "duration": 8.51,         // The duration of page display
+    "duration": 8510,         // The duration of page display
     "box": [{         // A text box appear only within title page
       "id": "title",
       "color": "text.2",          // A color by the id from define
@@ -37,48 +37,257 @@
     }]
   }, {
     "id": "lyrics.1",
-    "start_time": 8.51,
-    "duration": 11.67,
+    "start_time": 8510,
+    "duration": 11670,
     "count": {          // The bullet symbols
       "color": "pt.1",
-      "start_time": 12.11,
-      "duration": 2.64,
+      "start_time": 12110,
+      "duration": 2640,
       "n": 4          // the count of bullets
     },
     "ln": [{          // An object array of text line
       "lyr": [{         // An object array of string would be highlighted 
         "s": "ONE ",        
-        "start_time": 15.55,
-        "duration": 0.4
+        "start_time": 15550,
+        "duration": 400
       }, {
         "s": "DAY ",
-        "start_time": 15.95,
-        "duration": 1.52
+        "start_time": 15950,
+        "duration": 1520
       }]
     }, {
       "lyr": [{
         "s": "I ",
-        "start_time": 18.49,
-        "duration": 0.22
+        "start_time": 18490,
+        "duration": 220
       }, {
         "s": "HAVE ",
-        "start_time": 18.71,
-        "duration": 0.22
+        "start_time": 18710,
+        "duration": 220
       }]
     }, {
       "lyr": [{
         "s": "HAM ",
-        "start_time": 18.93,
-        "duration": 0.3
+        "start_time": 18930,
+        "duration": 300
       }, {
         "s": "AND ",
-        "start_time": 19.23,
-        "duration": 0.24
+        "start_time": 19230,
+        "duration": 240
       }, {
         "s": "BACON ",
-        "start_time": 19.47,
-        "duration": 0.61
+        "start_time": 19470,
+        "duration": 610
       }]
+    }]
+  }, {
+    "id": "lyrics.2",
+    "start_time": 20180,
+    "duration": 17120,
+    "ln": [{
+      "lyr": [{
+        "s": "AND ",
+        "start_time": 22010,
+        "duration": 360
+      }, {
+        "s": "THE ",
+        "start_time": 22370,
+        "duration": 240
+      }, {
+        "s": "NEXT ",
+        "start_time": 22610,
+        "duration": 220
+      }, {
+        "s": "DAY ",
+        "start_time": 22830,
+        "duration": 2100
+      }]
+    }, {
+      "lyr": [{
+        "s": "IT ",
+        "start_time": 25910,
+        "duration": 300
+      }, {
+        "s": "AIN'T ",
+        "start_time": 26210,
+        "duration": 160
+      }, {
+        "s": "NOTHIN' ",
+        "start_time": 26370,
+        "duration": 500
+      }, {
+        "s": "SHAKIN' ",
+        "start_time": 26870,
+        "duration": 1770
+      }]
+    }, {
+      "lyr": [{
+        "s": "AND ",
+        "start_time": 29120,
+        "duration": 230
+      }, {
+        "s": "IT ",
+        "start_time": 29350,
+        "duration": 170
+      }, {
+        "s": "AIN'T ",
+        "start_time": 29520,
+        "duration": 230
+      }, {
+        "s": "NOBODY'S ",
+        "start_time": 29750,
+        "duration": 850
+      }]
+    }, {
+      "lyr": {
+        "s": "BUSINESS ",
+        "start_time": 30600,
+        "duration": 1730
+      }
+    }, {
+      "lyr": [{
+        "s": "IF ",
+        "start_time": 33150,
+        "duration": 250
+      }, {
+        "s": "I ",
+        "start_time": 33400,
+        "duration": 330
+      }, {
+        "s": "DO ",
+        "start_time": 33730,
+        "duration": 800
+      }, {
+        "s": "WHAT ",
+        "start_time": 35320,
+        "duration": 250
+      }, {
+        "s": "I ",
+        "start_time": 35570,
+        "duration": 350
+      }, {
+        "s": "DO",
+        "start_time": 35920,
+        "duration": 1280
+      }]
+    }]
+  }, {
+    "id": "lyrics.3",
+    "start_time": ,
+    "duration": ,
+    "count": {
+      "color": "pt.1",
+      "start_time": 39750,
+      "duration": 2530,
+      "n": 4
+    },
+    "ln": [{
+      "lyr": [{
+        "s": "ME ",
+        "start_time": 42750,
+        "duration": 480
+      }, {
+        "s": "AND ",
+        "start_time": 43230,
+        "duration": 140
+      }, {
+        "s": "MY ",
+        "start_time": 43370,
+        "duration": 260
+      }, {
+        "s": "BABY ",
+        "start_time": 43630,
+        "duration": 1410
+      }]
+    }, {
+      "lyr": [{
+        "s": "OH ",
+        "start_time": 46090,
+        "duration": 310
+      }, {
+        "s": "WE ",
+        "start_time": 46400,
+        "duration": 450
+      }, {
+        "s": "FUSS ",
+        "start_time": 46850,
+        "duration": 340
+      }, {
+        "s": "AND ",
+        "start_time": 47190,
+        "duration": 220
+      }, {
+        "s": "FIGHT ",
+        "start_time": 47410,
+        "duration": 1720
+      }]
+    }, {
+      "lyr": [{
+        "s": "AND ",
+        "start_time": 49990,
+        "duration": 410
+      }, {
+        "s": "THE ",
+        "start_time": 50400,
+        "duration": 190
+      }, {
+        "s": "NEXT ",
+        "start_time": 50590,
+        "duration": 400
+      }, {
+        "s": "MINUTE ",
+        "start_time": 50990,
+        "duration": 900
+      }]
+    }, {
+      "lyr": [{
+        "s": "EVERYTHING'S ",
+        "start_time": 53010,
+        "duration": 1030
+      }, {
+        "s": "ALRIGHT ",
+        "start_time": 54040,
+        "duration": 1010
+      }]
+    }]
+  }, {
+    "id": "credits_page",
+    "start_time": 148210,
+    "duration": 8020,
+    "ln": [{
+      "text": "Written By:"
+    }, {
+      "color": "text.2",
+      "h": "+1",
+      "text": "PORTER GRAINGER"
+    }, {
+      "color": "text.2",
+      "h": "+1",
+      "text": "PCLARENCE WILLIAMS"
+    }, {
+      "color": "text.2",
+      "h": "+1",
+      "text": "JAMES WITHERSPOON"
+    }, {
+      "color": "text.2",
+      "h": "+1",
+      "text": "ROBERT GRAHAM PRINCE"
+    }, {
+      "text": "\n"
+    }, {
+      "color": "text.2",
+      "str": [{
+        "s": "Publishers:     "
+      }, {
+        "color": "text.1",
+        "s": "MCA MUSIC PUBLISHING, "
+      }]
+    }, {
+      "text": "(a division of UNIVERSAL STUDIOS) (ASCAP) THE SONGWRITERS GUILD"
+    }, {
+      "color": "pt.1",
+      "h": "-1",
+      "text": "ALL RIGHTS RESERVED. USED BY PERMISSION."
     }]
   }]
 }
