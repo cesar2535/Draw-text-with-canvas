@@ -6,7 +6,22 @@
   "dependencies": {
     "xml2json": "^0.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^1.7.3",
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-compass": "^2.0.3",
+    "gulp-concat": "^2.4.2",
+    "gulp-jade": "^0.10.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-notify": "^2.1.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^1.0.0",
+    "map-stream": "0.0.5"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

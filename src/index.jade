@@ -6,6 +6,11 @@ html
     link(rel='stylesheet', href='stylesheets/style.css')
     script(src='js/app/karaoke_drawer.js')
     script(src='js/app/karaoke_player.js')
+    script(src='js/app/audio_player.js')
+    script(src='js/app/jwplayer_custom.js')
   body
-    canvas#canvas
+    .karaoke-player
+      canvas#canvas
+      video#video-player
+      audio#audio-player
     script(src='js/app/app.js')

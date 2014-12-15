@@ -34,7 +34,7 @@
   };
 
   AudioPlayer.prototype.loadMedia = function() {
-    this.player.src = this.playlist[0].src
+    this.player.src = this.playlist[0].src;
     this.player.load();
   };
 

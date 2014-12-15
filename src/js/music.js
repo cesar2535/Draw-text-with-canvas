@@ -24,7 +24,7 @@
     this.stop = function () {
       clearInterval(this.interval);
       console.log('Timeline parada.');
-    }
+    };
   };
 
   var Music = function () {
