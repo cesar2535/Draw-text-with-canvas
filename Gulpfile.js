@@ -152,7 +152,7 @@ gulp.task('browser-sync', ['watch', 'build'], function() {
   });
 });
 
-var watchFolder = ['**/*.html', 'js/**/*.js', 'stylesheets/**/*.css'];
+var watchFolder = ['build/**/*.html', 'build/js/**/*.js', 'build/stylesheets/**/*.css'];
 gulp.task('livereload', ['watch', 'browser-sync'], function() {
   gulp.watch(watchFolder, function (file) {
     if (file.type === 'changed') {
