@@ -90,7 +90,7 @@ gulp.task('compass', function() {
   var stream = gulp.src(srcFiles.sass)
     // .pipe(watch(srcFiles.sass))
     .pipe(compass({
-      css: 'stylesheets',
+      css: 'build/stylesheets',
       sass: 'src/sass',
       require: ['susy']
     }))

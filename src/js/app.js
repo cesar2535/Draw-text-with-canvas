@@ -41,7 +41,6 @@
       context.fillStyle = 'red';
     }
 
-    console.log('test')
     context.save();
     context.beginPath();
     context.clearRect(clearX, clearY, w+10, clearH);

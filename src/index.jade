@@ -4,13 +4,14 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title Draw text with HTML5 Canvas
     link(rel='stylesheet', href='stylesheets/style.css')
-    script(src='js/app/karaoke_drawer.js')
-    script(src='js/app/karaoke_player.js')
-    script(src='js/app/audio_player.js')
-    script(src='js/app/jwplayer_custom.js')
   body
     .karaoke-player
       canvas#canvas
-      video#video-player
-      audio#audio-player
+      video#video-player(controls='')
+      audio#audio-player(controls='')
+    script(src='js/app/karaoke_drawer.js')
+    script(src='js/app/karaoke_player.js')
+    script(src='js/app/audio_player.js')
+    script(src='js/app/video_player.js')
+    script(src='js/app/jwplayer_custom.js')
     script(src='js/app/app.js')

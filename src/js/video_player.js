@@ -12,8 +12,8 @@
     'ERROR': 'ERROR'
   };
 
-  var AudioPlayer = function() {
-    this.player = document.getElementById('audio-player');
+  var VideoPlayer = function() {
+    this.player = document.getElementById('video-player');
     this.currentState = PLAYER_STATE.IDLE;
     this.playlist = [];
     this.loadedData = false;
@@ -27,19 +27,19 @@
     this.init();
   };
 
-  AudioPlayer.prototype.init = function() {
+  VideoPlayer.prototype.init = function() {
     if (!this.player)
       throw new Error('No audio-player here!');
 
     this.initializeAudioEvents();
   };
 
-  AudioPlayer.prototype.loadMedia = function() {
+  VideoPlayer.prototype.loadMedia = function() {
     this.player.src = this.playlist[0].src;
     this.player.load();
   };
 
-  AudioPlayer.prototype.playMedia = function() {
+  VideoPlayer.prototype.playMedia = function() {
     if (this.playlist.length <= 0) {
       console.error('Playlist is empty');
       return;
@@ -53,9 +53,10 @@
     this.player.play();
   };
 
-  AudioPlayer.prototype.nextMedia = function() {
+  VideoPlayer.prototype.nextMedia = function() {
     if (this.playlist.length <= 0) {
       console.error('Playlist is empty');
+      this.currentState = PLAYER_STATE.IDLE;
       return;
     }
 
@@ -63,13 +64,13 @@
 
     if (this.playlist[0]) {
       this.loadMedia();
-      this.playMedia();
     } else {
       console.error('No next media');
+      this.currentState = PLAYER_STATE.IDLE;
     }
   };
 
-  AudioPlayer.prototype.addToPlaylist = function(file) {
+  VideoPlayer.prototype.addToPlaylist = function(file) {
     var oldLength = this.playlist.length;
 
     if (Array.isArray(file))
@@ -79,12 +80,11 @@
 
     if (oldLength <= 0) {
       this.loadMedia();
-      // this.playMedia();
     }
 
   };
 
-  AudioPlayer.prototype.initializeAudioEvents = function() {
+  VideoPlayer.prototype.initializeAudioEvents = function() {
     // During the loading process of an audio/video, the following events occur, in this order:
     this.player.addEventListener('loadstart', this.onLoadStartListener.bind(this));
     this.player.addEventListener('durationchange', this.onDurationChangeListener.bind(this));
@@ -95,69 +95,90 @@
     this.player.addEventListener('canplaythrough', this.onCanPlayThroughListener.bind(this));
     // Loading process Ended
 
+    this.player.addEventListener('error', this.onErrorListener.bind(this));
     this.player.addEventListener('timeupdate', this.onTimeUpdateListener.bind(this));
     this.player.addEventListener('play', this.onPlayListener.bind(this));
     this.player.addEventListener('pause', this.onPauseListener.bind(this));
     this.player.addEventListener('ended', this.onEndedListener.bind(this));
+    this.player.addEventListener('volumechange', this.onVolumeChange.bind(this));
   };
 
-  AudioPlayer.prototype.onLoadStartListener = function() {
+  VideoPlayer.prototype.onLoadStartListener = function() {
     console.info('----- load start -----');
   };
 
-  AudioPlayer.prototype.onDurationChangeListener = function() {
+  VideoPlayer.prototype.onDurationChangeListener = function() {
     console.info('----- duration change -----');
   };
 
-  AudioPlayer.prototype.onLoadedMetadataListener = function() {
+  VideoPlayer.prototype.onLoadedMetadataListener = function() {
     console.info('----- loaded metadata -----');
   };
 
-  AudioPlayer.prototype.onLoadedDataListener = function() {
+  VideoPlayer.prototype.onLoadedDataListener = function() {
     this.loadedData = true;
     this.currentMediaDuration = this.player.duration;
     console.info('----- loaded data: ' + this.player.currentSrc + ' -----');
     this.playMedia();
   };
 
-  AudioPlayer.prototype.onProgressListener = function() {
+  VideoPlayer.prototype.onProgressListener = function() {
     console.info('----- progress -----');
   };
 
-  AudioPlayer.prototype.onCanPlayListener = function() {
+  VideoPlayer.prototype.onCanPlayListener = function() {
     console.info('----- can play -----');
   };
 
-  AudioPlayer.prototype.onCanPlayThroughListener = function() {
+  VideoPlayer.prototype.onCanPlayThroughListener = function() {
     console.info('----- can play through -----');
   };
 
-  AudioPlayer.prototype.onTimeUpdateListener = function() {
+  VideoPlayer.prototype.onErrorListener = function() {
+    console.error('Loading Error');
+  };
+
+  VideoPlayer.prototype.onTimeUpdateListener = function() {
 
   };
 
-  AudioPlayer.prototype.onPlayListener = function() {
+  VideoPlayer.prototype.onPlayListener = function() {
     console.info('----- Play Media: ' + this.player.currentSrc + ' -----');
     this.currentState = PLAYER_STATE.PLAYING;
-  };
 
-  AudioPlayer.prototype.onPauseListener = function() {
-    console.info('----- Media Pause -----');
-    this.currentState = PLAYER_STATE.PAUSED;
     if (this.timer) {
       clearInterval(this.timer);
       this.timer = undefined;
     }
 
+    this.timer = setInterval(this.onTimerListener.bind(this), this.timeSteps);
   };
 
-  AudioPlayer.prototype.onEndedListener = function() {
+  VideoPlayer.prototype.onPauseListener = function() {
+    console.info('----- Media Pause -----');
+    this.currentState = PLAYER_STATE.PAUSED;
+
+    if (this.timer) {
+      clearInterval(this.timer);
+      this.timer = undefined;
+    }
+  };
+
+  VideoPlayer.prototype.onEndedListener = function() {
     console.info('----- Media Ended -----');
-    if (this.playlist.length === 0)
-      this.currentState = PLAYER_STATE.IDLE;
+    this.nextMedia();
   };
 
-  window.AudioPlayer = AudioPlayer;
-  window.aud = new AudioPlayer();
+  VideoPlayer.prototype.onVolumeChange = function() {
+    console.info('----- volume change: ' + this.player.volume + ' -----');
+  };
+
+  VideoPlayer.prototype.onTimerListener = function() {
+    this.currentMediaTime = this.player.currentTime;
+    console.info('----- Current Time: ' + this.currentMediaTime + ' s -----');
+  };
+
+  window.VideoPlayer = VideoPlayer;
+  window.vud = new VideoPlayer();
 
 })();

@@ -33,7 +33,7 @@
     this.currentMediaTime = 0;
 
     this.playlistAddFlag = false;
-  }
+  };
 
   JWplayer.prototype.setupJwplayer = function(container, setupConfig) {
     if (!jwplayer)
